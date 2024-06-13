@@ -53,6 +53,10 @@
                     <input class='form-control' type="text" id='email' name='email'>
                 </div>
                 <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input class='form-control' type="text" id='senha' name='senha'>
+                </div>
+                <div class="form-group">
                     <label for="telefone">Telefone:</label>
                     <input class='form-control' type="text" id='telefone' name='telefone'>
                 </div>

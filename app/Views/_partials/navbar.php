@@ -27,7 +27,12 @@
         <li class="nav-item">
           <?=anchor("Emprestimo/index","Emprestimo",['class' => 'nav-link active', 'aria-current'=>'page',])?>
         </li>
+        <li class="nav-item ml-auto">
       </ul>
+      <button class="btn btn-outline-danger pull-left" onclick="location.href='<?php echo base_url('login/logout') ?>'">
+            <i class="fas fa-sign-out-alt"></i> Sair
+          </button>
+        </li>
     </div>
   </div>
 </nav>
