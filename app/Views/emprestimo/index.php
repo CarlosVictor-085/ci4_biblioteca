@@ -1,5 +1,5 @@
 <div class="container">
-    <h2>Emprestimo</h2>
+    <h2>Emprestimo Pau No CU</h2>
         <!-- Button do Modal -->
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
