@@ -62,4 +62,13 @@ class Emprestimo extends BaseController
         $this->emprestimoModel->delete($emprestimo);
         return redirect()->to('Emprestimo/index');
     }
+
+    public function devolucao($id){
+        $emprestimo = $this->emprestimoModel->find($id);
+        $livro = $this->livroModel->findAll();
+        echo view('_partials/header');
+        echo view('_partials/navbar');
+        echo view('devolução/index.php',['emprestimo'=>$emprestimo,'listaLivro'=>$livro]);
+        echo view('_partials/footer');
+    }
 }

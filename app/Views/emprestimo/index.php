@@ -4,6 +4,9 @@
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
         </button>
+        <?php foreach($listaEmprestimo as $em) :?>
+        <?=anchor("Emprestimo/devolucao/".$em['id'],"Devolução",['class' => 'btn  btn-dark'])?>
+        <?php endforeach ?>
         <!-- Tabela de Usuario -->
     <table class="table">
         <thead>
@@ -109,7 +112,6 @@
                 <div class="form-group">
                     <label for="telefone">Usuario:</label>
                     <select class='form-select' name="id_usuario" id="id_usuario" required>
-                        <option>Selecione um Usuario</option>
                         <?php foreach($listaUsuario as $usuario) : ?>
                             <option value="<?=$usuario['id']?>"><?=$usuario['nome']?></option>
                         <?php endforeach ?>

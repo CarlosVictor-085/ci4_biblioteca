@@ -12,6 +12,7 @@ class Login extends Controller
     public function index()
     {
         echo view('_partials/header');
+        echo view('_partials/navbarlogin');
         echo view('_partials/footer');
         // Verificar se o usuário já está logado
         if ($this->session->has('logged_in')) {

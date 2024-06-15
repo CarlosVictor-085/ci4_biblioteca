@@ -1,8 +1,9 @@
 
 <div class="container">
     <div class="row">
+            <center><h1>Seja Bem-vindo a Bibliotaca da EEEP Walter Ramos</h1> <br></center>
         <div class="col-md-4 offset-md-4">
-            <h1>Login</h1>
+            <h2>Faça Login Para Continuar</h2>
             <?php if (session()->has('error')): ?>
                 <div class="alert alert-danger">
                     <?= session()->get('error') ?>
@@ -17,7 +18,7 @@
                     <label for="senha">Senha</label>
                     <input type="password" class="form-control" id="senha" name="senha">
                 </div><br>
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <button type="submit" class="btn btn-dark">Entrar</button>
             </form>
         </div>
     </div>
