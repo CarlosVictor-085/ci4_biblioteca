@@ -35,7 +35,12 @@
                     <?=anchor("Emprestimo/editar/".$em['id'],date('d/m/Y',$data_inicio),$em['data_inicio'])?>
                     </td>
                     <td>
-                        <?=$em['data_fim']?>
+                    <?php
+                        $data_fim = $em['data_fim'];
+                        $data_fim = explode('-',$data_fim);
+                        $data_fim = mktime(0,0,0,$data_fim[1],$data_fim[2],$data_fim[0]);
+                    ?>
+                        <?=date('d/m/Y',$data_fim)?>
                     </td>
                     <td>
                         <?=$em['data_prazo']?>

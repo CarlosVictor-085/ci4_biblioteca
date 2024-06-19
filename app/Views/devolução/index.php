@@ -1,5 +1,5 @@
 <div class="container p-5">
-    <?=form_open('Emprestimo/salvar')?>
+    <?=form_open('Emprestimo/salvardev')?>
     <input value='<?=$emprestimo['id']?>'class='form-control' type="hidden" id='id' name='id'>
     <div class="row p-2">
         <div class="col-2">

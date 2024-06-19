@@ -31,13 +31,21 @@
         </div>
     </div>
     <div class="row p-2">
+                <?php
+                    foreach($listaObra as $obra){
+                        $obra[$obra['id']] = $obra['titulo'];
+                    }
+                ?>
         <div class="col-2">
             <label for="telefone">Livro:</label>
         </div>
         <div class="col-10">
-            <select class='form-select' name="id_livro" id="id_livro" required>
-                <?php foreach($listaObra as $obra) : ?>
-                    <option value="<?=$obra['id']?>"><?=$obra['titulo']?></option>
+        <select class='form-select' name="id_livro" id="id_livro" required>
+            <option>Selecione um Livro</option>
+                <?php foreach($listaLivro as $livro) : ?>
+                    <?php if($livro['disponivel'] >= 1):?>
+                        <option value="<?=$livro['id']?>"><?=$obra[$livro['id_obra']]?></option>
+                    <?php endif?>
                 <?php endforeach ?>
             </select>
         </div>
