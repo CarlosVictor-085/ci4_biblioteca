@@ -12,7 +12,7 @@ use App\Models\ObraModel;
 
 class Emprestimo extends BaseController
 {
-    private $emprestimoModel;
+    private $EmprestimoModel;
     private $livroModel;
     private $alunoModel;
     private $usuarioModel;
