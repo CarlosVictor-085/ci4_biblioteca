@@ -36,11 +36,17 @@
                     </td>
                     <td>
                     <?php
+                    if($em['data_fim'] != NULL){
                         $data_fim = $em['data_fim'];
                         $data_fim = explode('-',$data_fim);
                         $data_fim = mktime(0,0,0,$data_fim[1],$data_fim[2],$data_fim[0]);
+                    }
                     ?>
-                        <?=date('d/m/Y',$data_fim)?>
+                        <?php
+                    if($em['data_fim'] != NULL){
+                        echo date('d/m/Y',$data_fim);
+                    }
+                    ?>
                     </td>
                     <td>
                         <?=$em['data_prazo']?>
