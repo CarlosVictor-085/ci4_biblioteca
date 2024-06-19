@@ -11,7 +11,7 @@
             <label for="data_inicio">Data de Inicio:</label>
         </div>
         <div class="col-10">
-            <input value='<?php echo date('d/m/Y',$data_inicio),$emprestimo['data_inicio']?>'class='form-control' type="date" id='data_inicio' name='data_inicio'>
+            <input value="<?=$emprestimo['data_inicio']?>" class='form-control' type="date" id='data_inicio' name='data_inicio'>
         </div>
     </div>
     <div class="row p-2">
@@ -36,8 +36,8 @@
         </div>
         <div class="col-10">
             <select class='form-select' name="id_livro" id="id_livro" required>
-                <?php foreach($listaLivro as $livro) : ?>
-                    <option value="<?=$livro['id']?>"><?=$livro['status']?></option>
+                <?php foreach($listaObra as $obra) : ?>
+                    <option value="<?=$obra['id']?>"><?=$obra['titulo']?></option>
                 <?php endforeach ?>
             </select>
         </div>

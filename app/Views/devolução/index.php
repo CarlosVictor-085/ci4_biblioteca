@@ -23,9 +23,15 @@
         </div>
         <div class="col-10">
             <select class='form-select' name="id_livro" id="id_livro" required>
-                <?php foreach($listaLivro as $livro) : ?>
-                    <option value="<?=$livro['id']?>"><?=$livro['status']?></option>
-                <?php endforeach ?>
+            <?php
+                        foreach($listaObra as $obra){
+                            $obras[$obra['id']] = $obra['titulo'];
+                        }
+                        foreach($listaLivro as $livro){
+                            $livros[$livro['id']] = $obras[$livro['id_obra']];
+                        }
+                        ?>
+                        <option value="<?=$livro['id']?>"><?=$livros[$emprestimo['id_livro']]?></option>
             </select>
         </div>
     </div>

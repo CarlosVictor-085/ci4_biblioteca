@@ -42,8 +42,11 @@
                     </td>
                     <td>
                     <?php
+                        foreach($listaObra as $obra){
+                            $obras[$obra['id']] = $obra['titulo'];
+                        }
                         foreach($listaLivro as $livro){
-                            $livros[$livro['id']] = $livro['status'];
+                            $livros[$livro['id']] = $obras[$livro['id_obra']];
                         }
                         ?>
                         <?=$livros[$em['id_livro']]?>
@@ -79,24 +82,23 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <?php
+                    foreach($listaObra as $obra){
+                        $obra[$obra['id']] = $obra['titulo'];
+                    }
+                ?>
                 <div class="form-group">
                     <label for="data_inicio">Data de Inicio:</label>
                     <input class='form-control' type="date" id='data_inicio' name='data_inicio'>
-                </div>
-                <div class="form-group">
-                    <label for="data_fim">Data do Fim:</label>
-                    <input class='form-control' type="date" id='data_fim' name='data_fim'>
-                </div>
-                <div class="form-group">
-                    <label for="data_prazo">Data do Prazo:</label>
-                    <input class='form-control' type="date" id='data_prazo' name='data_prazo'>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Livro:</label>
                     <select class='form-select' name="id_livro" id="id_livro" required>
                         <option>Selecione um Livro</option>
                         <?php foreach($listaLivro as $livro) : ?>
-                            <option value="<?=$livro['id']?>"><?=$livro['status']?></option>
+                            <?php if($livro['disponivel'] >= 1):?>
+                                <option value="<?=$livro['id']?>"><?=$obra[$livro['id_obra']]?></option>
+                            <?php endif?>
                         <?php endforeach ?>
                     </select>
                 </div>
