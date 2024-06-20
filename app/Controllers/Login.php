@@ -2,6 +2,7 @@
 
 use CodeIgniter\Controller;
 use CodeIgniter\Session\Session;
+use App\Models\UsuarioModel;
 
 class Login extends Controller
 {
