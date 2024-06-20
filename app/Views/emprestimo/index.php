@@ -4,9 +4,6 @@
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
         </button>
-        <?php foreach($listaEmprestimo as $em) :?>
-        <?=anchor("Emprestimo/devolucao/".$em['id'],"Devolução",['class' => 'btn  btn-dark'])?>
-        <?php endforeach ?>
         <!-- Tabela de Usuario -->
     <table class="table">
         <thead>
@@ -31,6 +28,8 @@
                         $data_inicio = $em['data_inicio'];
                         $data_inicio = explode('-',$data_inicio);
                         $data_inicio = mktime(0,0,0,$data_inicio[1],$data_inicio[2],$data_inicio[0]);
+                        $prazo = $em['data_prazo']*24*60*60;
+                        $prazo += $data_inicio;
                     ?>
                     <?=anchor("Emprestimo/editar/".$em['id'],date('d/m/Y',$data_inicio),$em['data_inicio'])?>
                     </td>
@@ -49,7 +48,7 @@
                     ?>
                     </td>
                     <td>
-                        <?=$em['data_prazo']?>
+                        <?=date('d/m/Y',$prazo)?>
                     </td>
                     <td>
                     <?php
@@ -77,6 +76,19 @@
                         }
                         ?>
                         <?=$usuarios[$em['id_usuario']]?>
+                    </td>
+                    <td>
+                        <?php if($em['data_fim'] != NULL):?>
+                            <?php if($data_fim - $prazo <= 0){
+                                echo "Devolução no prazo";
+                            }else{
+                                echo "Devolução fora do prazo";
+                            }
+                            ?>
+                        <?php endif?>
+                        <?php if($em['data_fim'] == NULL):?>
+                            <?=anchor("Emprestimo/devolucao/".$em['id'],"Devolução",['class' => 'btn  btn-dark'])?>
+                        <?php endif?>
                     </td>
                 </tr>
             <?php endforeach ?>  

@@ -6,15 +6,7 @@
             <label for="data_fim">Data do Fim:</label>
         </div>
         <div class="col-10">
-            <input value='<?=$emprestimo['data_fim']?>'class='form-control' type="date" id='data_fim' name='data_fim'>
-        </div>
-    </div>
-    <div class="row p-2">
-        <div class="col-2">
-            <label for="data_prazo">Prazo:</label>
-        </div>
-        <div class="col-10">
-            <input value='<?=$emprestimo['data_prazo']?>'class='form-control' type="text" id='data_prazo' name='data_prazo'>
+            <input required value='<?=$emprestimo['data_fim']?>'class='form-control' type="date" id='data_fim' name='data_fim'>
         </div>
     </div>
     <div class="row p-2">
