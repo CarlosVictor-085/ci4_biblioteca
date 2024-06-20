@@ -92,6 +92,7 @@
     <!-- Modal De Excluir-->
     <?=form_open('Emprestimo/excluir')?>
     <input value='<?=$emprestimo['id']?>'class='form-control' type="hidden" id='id' name='id'>
+    <input value='<?=$emprestimo['id_livro']?>'type="hidden" name='id_livro' id='id_livro'>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
