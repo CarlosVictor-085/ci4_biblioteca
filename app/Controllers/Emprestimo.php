@@ -72,6 +72,7 @@ class Emprestimo extends BaseController
     }
     public function excluir(){
         $dados = $this->request->getPost();
+        $this->livroModel->update($dados['id_livro'], ['disponivel' => 1]);
         $this->EmprestimoModel->delete($dados);
         return redirect()->to('emprestimo/index');
     }
