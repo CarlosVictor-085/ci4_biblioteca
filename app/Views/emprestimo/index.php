@@ -103,6 +103,10 @@
                     <input class='form-control' type="date" id='data_inicio' name='data_inicio'>
                 </div>
                 <div class="form-group">
+                    <label for="data_prazo">Prazo:</label>
+                    <input class='form-control' type="text" id='data_prazo' name='data_prazo'>
+                </div>
+                <div class="form-group">
                     <label for="telefone">Livro:</label>
                     <select class='form-select' name="id_livro" id="id_livro" required>
                         <option>Selecione um Livro</option>
