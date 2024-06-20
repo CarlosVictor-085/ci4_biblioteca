@@ -48,8 +48,6 @@ class Emprestimo extends BaseController
     public function editar($id)
     {
         $dados = $this->EmprestimoModel->find($id);
-        if($dados['data_fim'] == 0){
-        $this->livroModel->update($dados['id_livro'], ['disponivel' => 1]);};
         $dadosaluno = $this->alunoModel->findAll();
         $dadosobra = $this->obraModel->findAll();
         $dadosusuario = $this->usuarioModel->findAll();
@@ -62,6 +60,7 @@ class Emprestimo extends BaseController
     public function salvar(){
         $dados = $this->request->getPost();
         $this->EmprestimoModel->save($dados);
+        $this->livroModel->update($dados['id_livro_antigo'],['disponivel' => 1]);
         $this->livroModel->update($dados['id_livro'], ['disponivel' => 0]);
         return redirect()->to('emprestimo/index');
     }

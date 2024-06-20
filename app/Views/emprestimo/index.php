@@ -95,7 +95,7 @@
             <div class="modal-body">
                 <?php
                     foreach($listaObra as $obra){
-                        $obra[$obra['id']] = $obra['titulo'];
+                        $obras[$obra['id']] = $obra['titulo'];
                     }
                 ?>
                 <div class="form-group">
@@ -112,7 +112,7 @@
                         <option>Selecione um Livro</option>
                         <?php foreach($listaLivro as $livro) : ?>
                             <?php if($livro['disponivel'] >= 1):?>
-                                <option value="<?=$livro['id']?>"><?=$obra[$livro['id_obra']]?></option>
+                                <option value="<?=$livro['id']?>"><?=$obras[$livro['id_obra']]?></option>
                             <?php endif?>
                         <?php endforeach ?>
                     </select>

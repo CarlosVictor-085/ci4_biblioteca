@@ -1,6 +1,7 @@
 <div class="container p-5">
     <?=form_open('Emprestimo/salvar')?>
     <input value='<?=$emprestimo['id']?>'class='form-control' type="hidden" id='id' name='id'>
+    <input value='<?=$emprestimo['id_livro']?>'type="hidden" name='id_livro_antigo' id='id_livro_antigo'>
     <?php
         $data_inicio = $emprestimo['data_inicio'];
         $data_inicio = explode('-',$data_inicio);
@@ -33,7 +34,7 @@
     <div class="row p-2">
                 <?php
                     foreach($listaObra as $obra){
-                        $obra[$obra['id']] = $obra['titulo'];
+                        $obras[$obra['id']] = $obra['titulo'];
                     }
                 ?>
         <div class="col-2">
@@ -44,7 +45,7 @@
             <option>Selecione um Livro</option>
                 <?php foreach($listaLivro as $livro) : ?>
                     <?php if($livro['disponivel'] >= 1):?>
-                        <option value="<?=$livro['id']?>"><?=$obra[$livro['id_obra']]?></option>
+                        <option value="<?=$livro['id']?>"><?=$obras[$livro['id_obra']]?></option>
                     <?php endif?>
                 <?php endforeach ?>
             </select>
