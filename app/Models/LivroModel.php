@@ -6,6 +6,20 @@ use CodeIgniter\Model;
 
 class LivroModel extends Model
 {
+    const DISPONIVEL = 1;
+    const INDISPONIVEL = 0;
+    const STATUSLOCADO = [
+        self::DISPONIVEL => "Disponivel",
+        self::INDISPONIVEL => "Indisponivel"
+    ];
+
+    const INTEGRO = 1;
+    const RASGADO = 2;
+    const STATUSLIVRO = [
+        self::INTEGRO => "Integro",
+        self::RASGADO => "Rasgado"
+    ];
+
     protected $table            = 'livro';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;

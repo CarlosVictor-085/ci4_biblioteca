@@ -21,10 +21,10 @@
                         <?=$li['id']?>
                     </td>
                     <td>
-                        <?=anchor("Livro/editar/".$li['id'],$li['disponivel'])?>
+                        <?=anchor("Livro/editar/".$li['id'],$statusdisponivel[$li['disponivel']])?>
                     </td>
                     <td>
-                        <?=$li['status']?>
+                        <?=$status[$li['status']]?>
                     </td>
                     <td>
                         <?php
@@ -51,11 +51,21 @@
             <div class="modal-body">
                 <div class="form-group">
                     <label for="disponivel">Disponivel:</label>
-                    <input class='form-control' type="text" id='disponivel' name='disponivel'>
+                    <select class='form-select' name="disponivel" id="disponivel" required>
+                        <option>Selecione a Disponibilidade</option>
+                        <?php foreach($statusdisponivel as $chave => $valor) : ?>
+                            <option value="<?=$chave?>"><?=$valor?></option>
+                        <?php endforeach ?>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="status">Status:</label>
-                    <input class='form-control' type="text" id='status' name='status'>
+                    <select class='form-select' name="status" id="status" required>
+                        <option>Selecione o Status</option>
+                        <?php foreach($status as $chave => $valor) : ?>
+                            <option value="<?=$chave?>"><?=$valor?></option>
+                        <?php endforeach ?>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Obra:</label>

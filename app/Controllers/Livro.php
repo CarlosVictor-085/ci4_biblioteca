@@ -18,11 +18,13 @@ class Livro extends BaseController
     }
 
     public function index(){
+        $statusdisponivel = LivroModel::STATUSLOCADO;
+        $status = LivroModel::STATUSLIVRO;
         $obra = $this->obraModel->findAll();
         $livro = $this->livroModel->findAll();
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro]);
+        echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
         echo view('_partials/footer');
     }
 

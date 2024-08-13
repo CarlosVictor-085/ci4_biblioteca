@@ -1,0 +1,325 @@
+INFO - 2024-08-13 13:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:03:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-13 13:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:03:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-13 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:03:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-13 13:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:03:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-13 13:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:03:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-13 13:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:04:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-13 13:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 13:05:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:13:59 --> ParseError: syntax error, unexpected token "const", expecting "," or ";"
+in APPPATH\Models\LivroModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Models\\LivroModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LivroModel')
+ 3 APPPATH\Controllers\Livro.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LivroModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:23:35 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:24:28 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:24:29 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:24:30 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:21 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:53 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:54 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:55 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:55 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:55 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:25:55 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:26:52 --> ParseError: syntax error, unexpected token ";", expecting "="
+in APPPATH\Models\LivroModel.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Models\\LivroModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LivroModel')
+ 3 APPPATH\Controllers\Livro.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LivroModel')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:27:01 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:27:15 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:28:13 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:28:13 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:28:14 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:28:14 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:28:15 --> Error: Undefined constant "App\Models\INTEGRO"
+in APPPATH\Controllers\Livro.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-13 13:40:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`livro`, CONSTRAINT `livro_ibfk_1` FOREIGN KEY (`id_obra`) REFERENCES `obra` (`id`)) in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `li...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Livro.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Livro->cadastrar()
+#10 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+#11 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-13 13:40:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`livro`, CONSTRAINT `livro_ibfk_1` FOREIGN KEY (`id_obra`) REFERENCES `obra` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `livro` (`id_obra`) VALUES (:id_obra:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Livro.php(43): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->cadastrar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:40:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`livro`, CONSTRAINT `livro_ibfk_1` FOREIGN KEY (`id_obra`) REFERENCES `obra` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `livro` (`id_obra`) VALUES (\'Selecione uma obra\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `livro` (`id_obra`) VALUES (\'Selecione uma obra\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `livro` (`id_obra`) VALUES (:id_obra:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Livro.php(43): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->cadastrar()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:40:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`livro`, CONSTRAINT `livro_ibfk_1` FOREIGN KEY (`id_obra`) REFERENCES `obra` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `livro` (`id_obra`) VALUES (\'Selecione uma obra\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `livro` (`id_obra`) VALUES (\'Selecione uma obra\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `livro` (`id_obra`) VALUES (\'Selecione uma obra\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `livro` (`id_obra`) VALUES (:id_obra:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Livro.php(43): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->cadastrar()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:42:13 --> Error: Undefined constant App\Models\LivroModel::STATUSLIVRO
+in APPPATH\Controllers\Livro.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:43:40 --> Error: Undefined constant App\Models\LivroModel::STATUSLIVRO
+in APPPATH\Controllers\Livro.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:02 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:03 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:04 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:04 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:04 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:04 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:05 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 13:44:05 --> ErrorException: Undefined array key 0
+in APPPATH\Views\livro\index.php on line 27.
+ 1 APPPATH\Views\livro\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\livro\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('livro/index.php', [], true)
+ 5 APPPATH\Controllers\Livro.php(27): view('livro/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Livro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Livro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
