@@ -58,7 +58,7 @@ class Login extends Controller
     public function logout()
     {
         // Destruir sessão
-        $this->session->destroy();
+        $this->session->destroy('logged_in');
 
         // Redirecionar para a página de login
         return redirect()->to(base_url('login'));

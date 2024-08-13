@@ -6,6 +6,7 @@ use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\ObraModel;
 use App\Models\LivroModel;
+use CodeIgniter\Session\Session;
 
 class Livro extends BaseController
 {
@@ -15,6 +16,7 @@ class Livro extends BaseController
     public function __construct(){
         $this->obraModel = new ObraModel();
         $this->livroModel = new LivroModel();
+        $this->session = \Config\Services::session();
     }
 
     public function index(){
@@ -26,6 +28,11 @@ class Livro extends BaseController
         echo view('_partials/navbar');
         echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function editar($id){

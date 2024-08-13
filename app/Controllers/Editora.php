@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\EditoraModel;
+use CodeIgniter\Session\Session;
 
 class Editora extends BaseController
 {
@@ -12,6 +13,7 @@ class Editora extends BaseController
     
     public function __construct(){
         $this->editoraModel = new EditoraModel();
+        $this->session = \Config\Services::session();
     }
     
     public function index(){
@@ -20,6 +22,11 @@ class Editora extends BaseController
         echo view('_partials/navbar');
         echo view('editora/index.php',['listaEditora' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function cadastrar(){

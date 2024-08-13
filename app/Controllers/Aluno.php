@@ -5,12 +5,14 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\AlunoModel;
+use CodeIgniter\Session\Session;
 
 class Aluno extends BaseController{   
     private $alunoModel;
     
     public function __construct(){
         $this->alunoModel = new AlunoModel();
+        $this->session = \Config\Services::session();
     }
     
     public function index(){
@@ -19,6 +21,11 @@ class Aluno extends BaseController{
         echo view('_partials/navbar');
         echo view('aluno/index.php',['listaAlunos' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function cadastrar(){

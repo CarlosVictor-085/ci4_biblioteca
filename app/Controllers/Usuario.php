@@ -5,12 +5,14 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\UsuarioModel;
+use CodeIgniter\Session\Session;
 
 class Usuario extends BaseController{
     private $usuarioModel;
     
     public function __construct(){
         $this->usuarioModel = new UsuarioModel();
+        $this->session = \Config\Services::session();
     }
     
     public function index(){
@@ -19,6 +21,11 @@ class Usuario extends BaseController{
         echo view('_partials/navbar');
         echo view('usuario/index.php',['listaUsuarios' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function cadastrar(){

@@ -9,6 +9,7 @@ use App\Models\LivroModel;
 use App\Models\AlunoModel;
 use App\Models\UsuarioModel;
 use App\Models\ObraModel;
+use CodeIgniter\Session\Session;
 
 class Emprestimo extends BaseController
 {
@@ -24,6 +25,7 @@ class Emprestimo extends BaseController
         $this->alunoModel = new AlunoModel();
         $this->usuarioModel = new UsuarioModel();
         $this->obraModel = new ObraModel();
+        $this->session = \Config\Services::session();
     }
     
     public function index(){
@@ -36,6 +38,11 @@ class Emprestimo extends BaseController
         echo view('_partials/navbar');
         echo view('emprestimo/index.php',['listaEmprestimo'=>$emprestimo,'listaLivro'=>$livro,'listaAluno'=> $aluno,'listaUsuario'=>$usuario,'listaObra' => $dadosobra]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function cadastrar()
