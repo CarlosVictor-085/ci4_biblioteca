@@ -6,7 +6,12 @@
             <label for="nome">Disponivel:</label>
         </div>
         <div class="col-10">
-            <input value='<?=$livro['disponivel']?>'class='form-control' type="text" id='disponivel' name='disponivel'>
+            <select class='form-select' name="disponivel" id="disponivel" required>
+                <option>Atualize a Disponibilidade</option>
+                <?php foreach($statusdisponivel as $chave => $valor) : ?>
+                    <option value="<?=$chave?>"><?=$valor?></option>
+                <?php endforeach ?>
+            </select>
         </div>
     </div>
     <div class="row p-2">
@@ -14,7 +19,12 @@
             <label for="nome">Status</label>
         </div>
         <div class="col-10">
-            <input value='<?=$livro['status']?>'class='form-control' type="text" id='status' name='status'>
+            <select class='form-select' name="status" id="status" required>
+                <option>Atualize o Status</option>
+                <?php foreach($status as $chave => $valor) : ?>
+                    <option value="<?=$chave?>"><?=$valor?></option>
+                <?php endforeach ?>
+            </select>
         </div>
     </div>
     <div class="row p-2">
@@ -33,7 +43,7 @@
     <div class="row p-4">
         <div class="col">
             <div class="btn-group w-100" role="group">
-                <a href='http://localhost:8080/index.php/Livro/index'class="btn btn-outline-secondary">Cancelar</a>
+                <a href='http://localhost/ci4_biblioteca/public/index.php/Livro/index'class="btn btn-outline-secondary">Cancelar</a>
                 <button type="submit" class="btn btn-outline-success">Salvar</button>
                 <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Excluir

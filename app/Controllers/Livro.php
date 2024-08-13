@@ -29,11 +29,13 @@ class Livro extends BaseController
     }
 
     public function editar($id){
+        $statusdisponivel = LivroModel::STATUSLOCADO;
+        $status = LivroModel::STATUSLIVRO;
         $livro = $this->livroModel->find($id);
         $obra = $this->obraModel->findAll();
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('livro/edit',['listaObra' => $obra, 'livro' => $livro]);
+        echo view('livro/edit',['listaObra' => $obra, 'livro' => $livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
         echo view('_partials/footer');
     }
 
