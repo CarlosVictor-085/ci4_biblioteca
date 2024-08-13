@@ -1,5 +1,9 @@
 <div class="container">
     <h2>Aluno</h2>
+    <form class="float-end me-3 d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
         <!-- Button do Modal -->
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
