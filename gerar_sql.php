@@ -3,23 +3,24 @@
 $num_records = 1000;
 
 // Nome do arquivo SQL
-$file_name = "insert_usuarios.sql";
+$file_name = "insert_alunos.sql";
 
 // Abre o arquivo para escrita
 $file = fopen($file_name, 'w');
 
 // Escreve o início da instrução INSERT
-fwrite($file, "INSERT INTO usuarios (nome, email, senha, telefone) VALUES\n");
+fwrite($file, "INSERT INTO aluno (cpf, nome, email, telefone, turma) VALUES\n");
 
 // Gera os registros
 for ($i = 1; $i <= $num_records; $i++) {
-    $nome = "Tom Cruise $i";
-    $email = "tomcruise$i@gmail.com";
-    $senha = "123$i";
+    $cpf = str_pad($i, 11, '0', STR_PAD_LEFT); // CPF fictício, formato 00000000000
+    $nome = "Aluno $i";
+    $email = "aluno$i@gmail.com";
     $telefone = "12345678" . ($i % 10);
+    $turma = "3D"; // Turmas de A a Z
     
     // Adiciona os valores no arquivo
-    $line = "('$nome', '$email', '$senha', '$telefone')";
+    $line = "('$cpf', '$nome', '$email', '$telefone', '$turma')";
     
     // Se não for o último registro, adicione uma vírgula
     if ($i < $num_records) {
