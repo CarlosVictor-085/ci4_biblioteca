@@ -16,10 +16,11 @@ class Usuario extends BaseController{
     }
     
     public function index(){
-        $dados = $this->usuarioModel->findAll();
+        $dados = $this->usuarioModel->paginate(10);
+        $pages = $this->usuarioModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('usuario/index.php',['listaUsuarios' => $dados]);
+        echo view('usuario/index.php',['listaUsuarios' => $dados, 'pager' => $pages]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -39,6 +40,14 @@ class Usuario extends BaseController{
         echo view('_partials/header');
         echo view('_partials/navbar');
         echo view('usuario/edit',['usuario' => $dados]);
+        echo view('_partials/footer');
+    }
+
+    public function resultado(){
+        $dados = $this->usuarioModel->findAll();
+        echo view('_partials/header');
+        echo view('_partials/navbar');
+        echo view('usuario/resultado',['usuario' => $dados]);
         echo view('_partials/footer');
     }
 

@@ -1,9 +1,11 @@
 <div class="container">
     <h2>Usuario</h2>
-            <form class="float-end me-3 d-flex" role="search">
+            <div class="float-end me-3 d-flex" role="search">
+                <?=form_open("Usuario/resultado/")?>
                     <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                <?=form_close()?>
+            </div>
         <!-- Button do Modal -->
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
@@ -37,6 +39,10 @@
             <?php endforeach ?>  
         </tbody>
     </table>
+    <div class="row">
+        <?= $pager->links() ?>
+
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
