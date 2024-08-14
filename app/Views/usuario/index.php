@@ -40,8 +40,7 @@
         </tbody>
     </table>
     <div class="row">
-        <?= $pager->links() ?>
-
+        <?= $pager->links('default', 'pager') ?>
     </div>
 
     <!-- Modal -->

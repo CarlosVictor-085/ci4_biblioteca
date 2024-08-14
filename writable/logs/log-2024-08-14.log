@@ -244,3 +244,88 @@ WARNING - 2024-08-14 17:52:03 --> [DEPRECATED] Creation of dynamic property App\
  2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:31:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-14 18:31:44 --> CodeIgniter\Pager\Exceptions\PagerException: "pages" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 122.
+ 1 SYSTEMPATH\Pager\Pager.php(122): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pages')
+ 2 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('default', 'pages')
+ 3 APPPATH\Views\usuario\index.php(43): CodeIgniter\Pager\Pager->links('default', 'pages')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\usuario\\index.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/index.php', [], true)
+ 7 APPPATH\Controllers\Usuario.php(23): view('usuario/index.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Usuario->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:32:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:36:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:36:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:36:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:36:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:36:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:37:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:37:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:37:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:37:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-14 18:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-14 18:37:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
