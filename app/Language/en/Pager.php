@@ -5,5 +5,5 @@ return [
     'first' => 'Primeira Pagina',
     'previous' => 'Pagina Anterior',
     'next' => 'Proximo',
-    'last' => "Anterior"
+    'last' => "Ultima Pagina"
 ];
