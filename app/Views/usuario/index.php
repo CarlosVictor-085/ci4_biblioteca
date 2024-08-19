@@ -1,8 +1,8 @@
 <div class="container">
     <h2>Usuario</h2>
             <div class="float-end me-3 d-flex" role="search">
-                <?=form_open("Usuario/resultado/")?>
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <?=form_open("Usuario/busca/")?>
+                    <input id="pesquisa" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                 <?=form_close()?>
             </div>

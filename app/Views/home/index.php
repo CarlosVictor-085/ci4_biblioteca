@@ -1,6 +1,5 @@
 <div class="container p-4">
-    <img src="<?=base_url("assets/img/logoeep.jpg")?>"  class="float-end me-3 img-thumbnail"> 
-    <h2>Bem-vindos à Biblioteca da EEEP Walter Ramos de Araujo!</h2>
+    <h2>Bem-vindos à Biblioteca!</h2>
     <br>
     <div class="row p-4">
         <div class="col-7">
@@ -18,7 +17,7 @@
             Convidamos todos vocês a explorarem, questionarem e se maravilharem com o vasto acervo que temos à disposição.
             </p>
             <p>
-            Sejam bem-vindos à Biblioteca da EEEP Walter Ramos de Araujo, 
+            Sejam bem-vindos à Biblioteca, 
             onde os sonhos ganham asas e o conhecimento se torna uma jornada sem fim.
             </p>
         </div>

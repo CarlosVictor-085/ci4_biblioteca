@@ -40,6 +40,7 @@ class Usuario extends BaseController{
         $this->usuarioModel->save($usuario);
         return redirect()->to('Login/index');
     }
+
     
     public function editar($id){
         $dados = $this->usuarioModel->find($id);
