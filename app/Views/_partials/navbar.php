@@ -29,7 +29,13 @@
         </li>
         <li class="nav-item ml-auto">
       </ul>
-      <button class="btn btn-outline-danger pull-left" onclick="location.href='<?php echo base_url('login/logout') ?>'">
+      <li class="nav-link active aria-current text-white m-2 ">
+            Ola, <?php
+            echo session()->get('nome');
+            ?>
+      </li>
+      
+       <button class="btn btn-outline-danger pull-left" onclick="location.href='<?php echo base_url('login/logout') ?>'">
             <i class="fas fa-sign-out-alt"></i> Sair
           </button>
         </li>

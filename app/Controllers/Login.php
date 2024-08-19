@@ -29,9 +29,10 @@ class Login extends Controller
         // Obter os dados do formulário
         $email = $this->request->getPost('email');
         $senha = $this->request->getPost('senha');
+        $nome = $this->request->getPost('nome');
 
         // Verificar se os dados estão vazios
-        if (empty($email) || empty($senha)) {
+        if (empty($email) || empty($senha) || empty($senha)) {
             return redirect()->back()->withInput()->with('error', 'Preencha todos os campos!');
         }
 
@@ -39,13 +40,14 @@ class Login extends Controller
         $db = \Config\Database::connect();
 
         // Selecionar o usuário com o email e senha informados
-        $query = $db->table('usuario')->where('email', $email)->where('senha', $senha)->get();
+        $query = $db->table('usuario')->where('nome', $nome)->where('email', $email)->where('senha', $senha)->get();
 
         // Verificar se o usuário existe
         if ($query->getNumRows() > 0) {
             // Criar sessão
             $this->session->set('logged_in', true);
             $this->session->set('email', $email);
+            $this->session->set('nome', $nome);
 
             // Redirecionar para a página de dashboard
             return redirect()->to(base_url('Home/index'));

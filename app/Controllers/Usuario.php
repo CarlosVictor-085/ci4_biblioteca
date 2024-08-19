@@ -34,6 +34,12 @@ class Usuario extends BaseController{
         $this->usuarioModel->save($usuario);
         return redirect()->to('Usuario/index');
     }
+
+    public function cadastrarlogin(){
+        $usuario = $this->request->getPost();   
+        $this->usuarioModel->save($usuario);
+        return redirect()->to('Login/index');
+    }
     
     public function editar($id){
         $dados = $this->usuarioModel->find($id);
