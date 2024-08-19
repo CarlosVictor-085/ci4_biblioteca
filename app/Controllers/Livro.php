@@ -23,10 +23,11 @@ class Livro extends BaseController
         $statusdisponivel = LivroModel::STATUSLOCADO;
         $status = LivroModel::STATUSLIVRO;
         $obra = $this->obraModel->findAll();
-        $livro = $this->livroModel->findAll();
+        $livro = $this->livroModel->paginate(10);
+        $pager = $this->livroModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
+        echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status, 'pager'=> $pager]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -44,6 +45,11 @@ class Livro extends BaseController
         echo view('_partials/navbar');
         echo view('livro/edit',['listaObra' => $obra, 'livro' => $livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
         echo view('_partials/footer');
+
+                if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
 

@@ -68,7 +68,7 @@
     <div class="row p-4">
         <div class="col">
             <div class="btn-group w-100" role="group">
-                <a href='http://localhost:8080/index.php/Obra/index'class="btn btn-outline-secondary">Cancelar</a>
+                <button class="btn btn-outline-secondary"<?=base_url("Obra/index")?>>Cancelar</button>
                 <button type="submit" class="btn btn-outline-success">Salvar</button>
                 <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Excluir

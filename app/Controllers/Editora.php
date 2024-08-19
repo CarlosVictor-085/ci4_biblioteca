@@ -17,10 +17,11 @@ class Editora extends BaseController
     }
     
     public function index(){
-        $dados = $this->editoraModel->findAll();
+        $dados = $this->editoraModel->paginate(10);
+        $pager = $this->editoraModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('editora/index.php',['listaEditora' => $dados]);
+        echo view('editora/index.php',['listaEditora' => $dados,'pager' => $pager]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -42,6 +43,11 @@ class Editora extends BaseController
         echo view('_partials/navbar');
         echo view('editora/edit',['editora' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function salvar(){

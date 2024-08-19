@@ -41,6 +41,11 @@ class Usuario extends BaseController{
         echo view('_partials/navbar');
         echo view('usuario/edit',['usuario' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function resultado(){

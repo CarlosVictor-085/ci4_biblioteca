@@ -17,10 +17,11 @@ class Autor extends BaseController
     }
 
     public function index(){
-        $dados = $this->autorModel->findAll();
+        $dados = $this->autorModel->paginate(10);
+        $pager = $this->autorModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('autor/index.php',['listaAutor' => $dados]);
+        echo view('autor/index.php',['listaAutor' => $dados, 'pager' => $pager]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -42,6 +43,11 @@ class Autor extends BaseController
         echo view('_partials/navbar');
         echo view('autor/edit',['autor' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function salvar(){

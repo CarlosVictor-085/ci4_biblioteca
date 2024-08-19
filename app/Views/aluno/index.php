@@ -46,6 +46,9 @@
             <?php endforeach ?>  
         </tbody>
     </table>
+    <div class="row">
+        <?= $pager->links('default', 'pager') ?>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1D" aria-labelledby="exampleModalLabel" aria-hidden="true">

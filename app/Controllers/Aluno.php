@@ -16,10 +16,11 @@ class Aluno extends BaseController{
     }
     
     public function index(){
-        $dados = $this->alunoModel->findAll();
+        $dados = $this->alunoModel->paginate(10);
+        $pager = $this->alunoModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('aluno/index.php',['listaAlunos' => $dados]);
+        echo view('aluno/index.php',['listaAlunos' => $dados,'pager' => $pager]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -41,6 +42,11 @@ class Aluno extends BaseController{
         echo view('_partials/navbar');
         echo view('aluno/edit',['aluno' => $dados]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function salvar(){

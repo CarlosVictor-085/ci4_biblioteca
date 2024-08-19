@@ -26,11 +26,12 @@ class Obra extends BaseController
     }
     
     public function index(){
-        $obra = $this->obraModel->findAll();
+        $obra = $this->obraModel->paginate(10);
         $editora = $this->editoraModel->findAll();
+        $pager = $this->obraModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('obra/index.php',['listaObra'=>$obra,'listaEditora'=>$editora]);
+        echo view('obra/index.php',['listaObra'=>$obra,'listaEditora'=>$editora,'pager' => $pager]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -55,6 +56,11 @@ class Obra extends BaseController
         echo view('_partials/navbar');
         echo view('obra/edit',['obra' => $obra,'listaAutor' => $autor,'listaEditora' => $editora,'listaAutorObra' => $dadosAutorObra]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
 
     public function adicionarAutor(){

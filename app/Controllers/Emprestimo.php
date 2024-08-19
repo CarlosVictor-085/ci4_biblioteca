@@ -29,14 +29,15 @@ class Emprestimo extends BaseController
     }
     
     public function index(){
-        $emprestimo = $this->EmprestimoModel->findAll();
+        $emprestimo = $this->EmprestimoModel->paginate(10);
         $livro = $this->livroModel->findAll();
         $dadosobra = $this->obraModel->findAll();
         $aluno = $this->alunoModel->findAll();
         $usuario = $this->usuarioModel->findAll();
+        $pager = $this->EmprestimoModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('emprestimo/index.php',['listaEmprestimo'=>$emprestimo,'listaLivro'=>$livro,'listaAluno'=> $aluno,'listaUsuario'=>$usuario,'listaObra' => $dadosobra]);
+        echo view('emprestimo/index.php',['listaEmprestimo'=>$emprestimo,'listaLivro'=>$livro,'listaAluno'=> $aluno,'listaUsuario'=>$usuario,'listaObra' => $dadosobra,'pager' => $pager]);
         echo view('_partials/footer');
 
         if ($this->session->has('logged_in')) {
@@ -63,6 +64,11 @@ class Emprestimo extends BaseController
         echo view('_partials/navbar');
         echo view('emprestimo/edit',['emprestimo' => $dados,'listaAluno' => $dadosaluno,'listaLivro' => $dadoslivro,'listaUsuario' => $dadosusuario,'listaObra' => $dadosobra]);
         echo view('_partials/footer');
+
+        if ($this->session->has('logged_in')) {
+        }else{
+            return redirect()->to(base_url('Login/index'));
+        }
     }
     public function salvar(){
         $dados = $this->request->getPost();
