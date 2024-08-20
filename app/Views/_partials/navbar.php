@@ -10,16 +10,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav nav-tabs me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <?=anchor("Aluno/index","Aluno",['class' => 'nav-link text-black'])?>
+        <?=anchor("Aluno/index","Aluno",['class' => 'nav-link text-black', 'aria-current'=>'page'])?>
         </li>
         <li class="nav-item">
-        <?=anchor("Autor/index","Autor",['class' => 'nav-link text-black'])?>
+        <?=anchor("Autor/index","Autor",['class' => 'nav-link text-black', 'aria-current'=>'page'])?>
         </li>
+        <?php if(session()->get('nome') == 'admin') : ?>
         <li class="nav-item">
-        <?=anchor("Usuario/index","Usuario",['class' => 'nav-link text-black'])?>
+        <?=anchor("Usuario/index","Usuario",['class' => 'nav-link text-black', 'aria-current'=>'page'])?>
         </li>
+        <?php endif ?>
         <li class="nav-item">
-          <?=anchor("Editora/index","Editora",['class' => 'nav-link text-black',])?>
+          <?=anchor("Editora/index","Editora",['class' => 'nav-link text-black', 'aria-current'=>'page',])?>
         </li>
         <li class="nav-item">
           <?=anchor("Obra/index","Obra",['class' => 'nav-link text-black',])?>

@@ -23,6 +23,11 @@ class Usuario extends BaseController{
         echo view('usuario/index.php',['listaUsuarios' => $dados, 'pager' => $pages]);
         echo view('_partials/footer');
 
+        if(session()->get('nome') == 'admin'){
+        }else{
+            return redirect()->to(base_url('Home/index'));
+        }
+
         if ($this->session->has('logged_in')) {
         }else{
             return redirect()->to(base_url('Login/index'));
