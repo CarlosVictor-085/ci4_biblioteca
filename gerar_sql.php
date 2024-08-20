@@ -3,24 +3,45 @@
 $num_records = 1000;
 
 // Nome do arquivo SQL
-$file_name = "insert_emprestimo.sql";
+$file_name = "insert_usuario.sql";
+
+// Funções para gerar dados aleatórios
+function randomName() {
+    $first_names = ['Ana', 'João', 'Maria', 'Pedro', 'Lucas', 'Laura', 'Carlos', 'Sofia', 'Gabriel', 'Julia'];
+    $last_names = ['Silva', 'Santos', 'Oliveira', 'Pereira', 'Costa', 'Almeida', 'Ferreira', 'Rodrigues', 'Lima', 'Gomes'];
+    
+    return $first_names[array_rand($first_names)] . ' ' . $last_names[array_rand($last_names)];
+}
+
+function randomEmail($name) {
+    $domains = ['example.com', 'test.com', 'demo.com'];
+    $namePart = strtolower(str_replace(' ', '.', $name));
+    return $namePart . '@' . $domains[array_rand($domains)];
+}
+
+function randomPassword() {
+    return substr(str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'), 0, 12);
+}
+
+function randomPhoneNumber() {
+    return '+55 ' . rand(11, 99) . ' 9' . rand(1000, 9999) . '-' . rand(1000, 9999);
+}
 
 // Abre o arquivo para escrita
 $file = fopen($file_name, 'w');
 
 // Escreve o início da instrução INSERT
-fwrite($file, "INSERT INTO emprestimo (data_inicio, data_prazo, id_livro, id_aluno, id_usuario) VALUES\n");
+fwrite($file, "INSERT INTO usuario (nome, email, senha, telefone) VALUES\n");
 
 // Gera os registros
 for ($i = 1; $i <= $num_records; $i++) {
-    $data_inicio = date('Y-m-d', strtotime('-' . ($i % 30) . ' days')); // Data de início fictícia
-    $data_prazo = rand(7, 30); // Prazo em dias, entre 7 e 30 dias
-    $id_livro = ($i % 1000) + 1; // ID do livro variando entre 1 e 1000
-    $id_aluno = ($i % 1000) + 1; // ID do aluno variando entre 1 e 1000
-    $id_usuario = 1; // ID do usuário fixo
+    $nome = randomName();
+    $email = randomEmail($nome);
+    $senha = randomPassword();
+    $telefone = randomPhoneNumber();
     
     // Adiciona os valores no arquivo
-    $line = "('$data_inicio', $data_prazo, $id_livro, $id_aluno, $id_usuario)";
+    $line = "('$nome', '$email', '$senha', '$telefone')";
     
     // Se não for o último registro, adicione uma vírgula
     if ($i < $num_records) {

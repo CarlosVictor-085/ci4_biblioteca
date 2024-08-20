@@ -16,7 +16,18 @@ class Aluno extends BaseController{
     }
     
     public function index(){
-        $dados = $this->alunoModel->paginate(10);
+        $pesquisa = $this->request->getPost();
+        if(count($pesquisa) > 0){
+            $dados = $this->alunoModel->like('nome', $pesquisa['pesquisa'])
+                                    ->orlike('cpf', $pesquisa['pesquisa'])
+                                    ->orlike('email', $pesquisa['pesquisa'])
+                                    ->orLike('telefone', $pesquisa['pesquisa'])
+                                    ->orLike('turma',$pesquisa['pesquisa']);
+            $dados = $dados->paginate(10);
+            
+        }else{
+            $dados = $this->alunoModel->paginate(10);
+        }; 
         $pager = $this->alunoModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');

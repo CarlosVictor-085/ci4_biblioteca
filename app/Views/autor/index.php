@@ -1,9 +1,11 @@
 <div class="container">
     <h2>Autor</h2>
-    <form class="float-end me-3 d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>
+                <?=form_open("Autor/index")?>
+                <div class="float-end me-3 d-flex" role="search">
+                    <input name='pesquisa'class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"> 
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </div>
+                <?=form_close()?>
         <!-- Button do Modal -->
         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo

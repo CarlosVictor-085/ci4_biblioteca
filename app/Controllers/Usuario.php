@@ -16,7 +16,17 @@ class Usuario extends BaseController{
     }
     
     public function index(){
-        $dados = $this->usuarioModel->paginate(10);
+        $pesquisa = $this->request->getPost();
+        if(count($pesquisa) > 0){
+        $dados = $this->usuarioModel->like('nome',$pesquisa['pesquisa'])
+            ->orlike('email',$pesquisa['pesquisa'])
+            ->orlike('telefone',$pesquisa['pesquisa']);
+            $dados = $dados->paginate(10);
+            //dd($dados);
+            
+        }else{
+            $dados = $this->usuarioModel->paginate(10);
+        }
         $pages = $this->usuarioModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
@@ -34,19 +44,6 @@ class Usuario extends BaseController{
         }
     }
 
-    public function cadastrar(){
-        $usuario = $this->request->getPost();   
-        $this->usuarioModel->save($usuario);
-        return redirect()->to('Usuario/index');
-    }
-
-    public function cadastrarlogin(){
-        $usuario = $this->request->getPost();   
-        $this->usuarioModel->save($usuario);
-        return redirect()->to('Login/index');
-    }
-
-    
     public function editar($id){
         $dados = $this->usuarioModel->find($id);
         echo view('_partials/header');
@@ -58,14 +55,6 @@ class Usuario extends BaseController{
         }else{
             return redirect()->to(base_url('Login/index'));
         }
-    }
-
-    public function resultado(){
-        $dados = $this->usuarioModel->findAll();
-        echo view('_partials/header');
-        echo view('_partials/navbar');
-        echo view('usuario/resultado',['usuario' => $dados]);
-        echo view('_partials/footer');
     }
 
     public function salvar(){
