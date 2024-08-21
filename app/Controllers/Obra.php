@@ -26,7 +26,19 @@ class Obra extends BaseController
     }
     
     public function index(){
+        $pesquisa = $this->request->getPost();
+        if(count($pesquisa) > 0){
+            $obra = $this->obraModel->join('editora', 'obra.id_editora = editora.id')
+            ->like('titulo',$pesquisa['pesquisa'])
+            ->orlike('categoria',$pesquisa['pesquisa'])
+            ->orLike('ano_publicacao',$pesquisa['pesquisa'])
+            ->orlike('isbn',$pesquisa['pesquisa'])
+            ->orLike('editora.nome', $pesquisa['pesquisa']);
+            $obra = $obra->paginate(10);
+            //dd($dados);
+        }else{
         $obra = $this->obraModel->paginate(10);
+        };
         $editora = $this->editoraModel->findAll();
         $pager = $this->obraModel->pager;
         echo view('_partials/header');

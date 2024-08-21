@@ -17,7 +17,16 @@ class Editora extends BaseController
     }
     
     public function index(){
+        $pesquisa = $this->request->getPost();
+        if(count($pesquisa) > 0){
+            $dados = $this->editoraModel->like('nome',$pesquisa['pesquisa'])
+            ->orlike('email',$pesquisa['pesquisa'])
+            ->orlike('telefone',$pesquisa['pesquisa']);
+            $dados = $dados->paginate(10);
+            //dd($dados);
+        }else{
         $dados = $this->editoraModel->paginate(10);
+        }
         $pager = $this->editoraModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');

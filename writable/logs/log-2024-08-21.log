@@ -1,0 +1,1627 @@
+INFO - 2024-08-21 16:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:18:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:24:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$session is deprecated in APPPATH\Controllers\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:24:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:25:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Aluno::$session is deprecated in APPPATH\Controllers\Aluno.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Aluno->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Aluno::$session is deprecated in APPPATH\Controllers\Aluno.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Aluno->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:25:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Aluno::$session is deprecated in APPPATH\Controllers\Aluno.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Aluno->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:25:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:25:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:29:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:30:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:30:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:30:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:30:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:31:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:31:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:31:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:31:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:31:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:32:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:32:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:32:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:33:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:33:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:33:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:35:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:36:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:36:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:36:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:36:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:36:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:37:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:37:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:37:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:37:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:37:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:37:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:41:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:44:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 16:44:49 --> mysqli_sql_exception: Unknown column 'nome' in 'where clause' in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 16:44:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nome' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE :nome: ESCAPE \'!\'
+OR  `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano` LIKE :ano: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:44:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE :nome: ESCAPE \'!\'
+OR  `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano` LIKE :ano: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:44:49 --> [Caused by] mysqli_sql_exception: Unknown column 'nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `nome` LIKE :nome: ESCAPE \'!\'
+OR  `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano` LIKE :ano: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:44:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:45:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 16:45:32 --> mysqli_sql_exception: Unknown column 'ano' in 'where clause' in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 16:45:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ano' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano` LIKE :ano: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:45:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ano' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano` LIKE :ano: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:45:32 --> [Caused by] mysqli_sql_exception: Unknown column 'ano' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano` LIKE :ano: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:45:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:47:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 16:47:06 --> mysqli_sql_exception: Unknown column 'editora' in 'where clause' in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 16:47:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:47:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:47:06 --> [Caused by] mysqli_sql_exception: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'
+OR  `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'
+OR  `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:48:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:48:44 --> Error: Object of class App\Controllers\Obra could not be converted to string
+in APPPATH\Controllers\Obra.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:49:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 16:49:54 --> mysqli_sql_exception: Unknown column 'editora' in 'where clause' in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 16:49:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:49:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:49:54 --> [Caused by] mysqli_sql_exception: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%Bloomsbury Publishing 120%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:50:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:51:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:51:07 --> ErrorException: Undefined variable $obra
+in APPPATH\Controllers\Obra.php on line 45.
+ 1 APPPATH\Controllers\Obra.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obra', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Controllers\\Obra.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:51:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:51:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\obra\index.php on line 29.
+ 1 APPPATH\Views\obra\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\obra\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\obra\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('obra/index.php', [], true)
+ 5 APPPATH\Controllers\Obra.php(45): view('obra/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:51:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:51:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:52:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:52:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:52:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:53:29 --> ErrorException: Undefined array key "titulo"
+in APPPATH\Views\obra\index.php on line 32.
+ 1 APPPATH\Views\obra\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\obra\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Views\\obra\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('obra/index.php', [], true)
+ 5 APPPATH\Controllers\Obra.php(45): view('obra/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:53:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 16:53:48 --> Error: Call to a member function links() on null
+in APPPATH\Views\obra\index.php on line 56.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('obra/index.php', [], true)
+ 4 APPPATH\Controllers\Obra.php(45): view('obra/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:54:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:54:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:55:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Livro::$session is deprecated in APPPATH\Controllers\Livro.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:55:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Emprestimo::$session is deprecated in APPPATH\Controllers\Emprestimo.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Emprestimo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 16:55:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Livro::$session is deprecated in APPPATH\Controllers\Livro.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Emprestimo::$session is deprecated in APPPATH\Controllers\Emprestimo.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Emprestimo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:03:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:32:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:37:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:45:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:45:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:54:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:59:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:59:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Autor::$session is deprecated in APPPATH\Controllers\Autor.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Autor->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:59:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 17:59:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`)
+WHERE `titulo` LIKE '%blo%' ESCAPE '!'
+OR  `categoria` LIKE '%blo%' ES...' at line 3 in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 17:59:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`)
+WHERE `titulo` LIKE '%blo%' ESCAPE '!'
+OR  `categoria` LIKE '%blo%' ES...' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 17:59:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`)
+WHERE `titulo` LIKE '%blo%' ESCAPE '!'
+OR  `categoria` LIKE '%blo%' ES...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 17:59:17 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`)
+WHERE `titulo` LIKE '%blo%' ESCAPE '!'
+OR  `categoria` LIKE '%blo%' ES...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`.`id`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:59:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:01:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 18:01:38 --> mysqli_sql_exception: Table 'biblioteca.nome' doesn't exist in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 18:01:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:01:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:01:38 --> [Caused by] mysqli_sql_exception: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:01:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 18:01:41 --> mysqli_sql_exception: Table 'biblioteca.nome' doesn't exist in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 18:01:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:01:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:01:41 --> [Caused by] mysqli_sql_exception: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `categoria` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `ano_publicacao` LIKE \'%blo%\' ESCAPE \'!\'
+OR  `isbn` LIKE \'%blo%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `obra`
+JOIN `nome` USING (`id_editora`)
+WHERE `titulo` LIKE :titulo: ESCAPE \'!\'
+OR  `categoria` LIKE :categoria: ESCAPE \'!\'
+OR  `ano_publicacao` LIKE :ano_publicacao: ESCAPE \'!\'
+OR  `isbn` LIKE :isbn: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(36): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:02:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:03:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:03:53 --> Error: Undefined constant "App\Controllers\editoraModel"
+in APPPATH\Controllers\Obra.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:04:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 18:04:11 --> mysqli_sql_exception: Table 'biblioteca.nome' doesn't exist in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 18:04:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:04:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:04:11 --> [Caused by] mysqli_sql_exception: Table 'biblioteca.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `nome` USING (`id_editora`)', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:05:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 18:05:09 --> mysqli_sql_exception: Not unique table/alias: 'editora' in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 18:05:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'editora'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:05:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'editora'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:05:09 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'editora'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `editora` USING (`id_editora`)', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:05:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 18:05:47 --> mysqli_sql_exception: Table 'editora.nome' doesn't exist in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 18:05:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'editora.nome' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:05:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'editora.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:05:47 --> [Caused by] mysqli_sql_exception: Table 'editora.nome' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `editora`
+JOIN `editora`.`nome` USING (`id_editora`)', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Obra.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:07:07 --> ParseError: syntax error, unexpected identifier "pesquisa", expecting ")"
+in APPPATH\Controllers\Obra.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('Obra/index', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('Obra/index')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('Obra/index')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:07:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:07:48 --> ErrorException: Undefined variable $dados
+in APPPATH\Controllers\Obra.php on line 36.
+ 1 APPPATH\Controllers\Obra.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Controllers\\Obra.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:09:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:09:09 --> ErrorException: Undefined variable $dados
+in APPPATH\Controllers\Obra.php on line 36.
+ 1 APPPATH\Controllers\Obra.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Controllers\\Obra.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:09:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:11:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-21 18:11:14 --> mysqli_sql_exception: Unknown column 'editora' in 'where clause' in C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4_biblioteca\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_biblioteca\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_biblioteca\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_biblioteca\system\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_biblioteca\app\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(941): App\Controllers\Obra->index()
+#8 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+#9 C:\xampp\htdocs\ci4_biblioteca\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_biblioteca\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 18:11:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:11:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%blo%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:11:14 --> [Caused by] mysqli_sql_exception: Unknown column 'editora' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%blo%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%blo%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE \'%blo%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `editora`
+WHERE `editora` LIKE :editora: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1239): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Obra.php(37): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:11:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-21 18:11:26 --> ErrorException: Undefined variable $dados
+in APPPATH\Controllers\Obra.php on line 38.
+ 1 APPPATH\Controllers\Obra.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\xampp\\htdocs\\ci4_biblioteca\\app\\Controllers\\Obra.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Obra->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Obra))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:11:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:33:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:33:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Usuario::$session is deprecated in APPPATH\Controllers\Usuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:33:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:33:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:33:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:33:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:41:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Livro::$session is deprecated in APPPATH\Controllers\Livro.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Livro->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:41:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Emprestimo::$session is deprecated in APPPATH\Controllers\Emprestimo.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Emprestimo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:42:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Editora::$session is deprecated in APPPATH\Controllers\Editora.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Editora->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:42:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 18:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 18:43:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Obra::$session is deprecated in APPPATH\Controllers\Obra.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Obra->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
