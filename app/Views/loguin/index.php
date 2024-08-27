@@ -19,7 +19,12 @@
                 </div>
                 <div class="form-group">
                     <label for="senha">Senha</label>
+                    <div class="input-group mb-3">
                     <input type="password" class="form-control" id="senha" name="senha">
+                        <div class="input-group-append align-self-center ms-2">
+                            <i class="bi bi-eye-fill input-group-text" style="Height: 38px" id="btn-senha" onclick="mostrarSenha()"></i>
+                        </div>
+                    </div>
                 </div><br>
                 <button type="submit" class="btn btn-dark">Entrar</button>
             </form>

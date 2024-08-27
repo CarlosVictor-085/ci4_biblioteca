@@ -41,12 +41,7 @@
                         <?=$ob['isbn']?>
                     </td>
                     <td>
-                        <?php
-                            foreach($listaEditora as $editora){
-                                $editoras[$editora['id']] = $editora['nome'];
-                            }
-                        ?>
-                        <?=$editoras[$ob['id_editora']]?>
+                        <?=$ob['nome']?>
                     </td>
                 </tr>
             <?php endforeach ?>  
@@ -86,8 +81,8 @@
                     <label for="telefone">EDITORA:</label>
                     <select class='form-select' name="id_editora" id="id_editora" required>
                         <option>Selecione uma editora</option>
-                        <?php foreach($listaEditora as $editora) : ?>
-                            <option value="<?=$editora['id']?>"><?=$editora['nome']?></option>
+                        <?php foreach($listaObra as $ob) : ?>
+                            <option value="<?=$ob['id']?>"><?=$ob['nome']?></option>
                         <?php endforeach ?>
                     </select>
                 </div>

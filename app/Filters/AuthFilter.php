@@ -27,7 +27,9 @@ class AuthFilter implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         $session = service('session');
-        
+        if (! in_array($session->get('logged_in'), $arguments)) {
+            return redirect()->to(base_url('Login/index'));
+        };
     }
 
     /**

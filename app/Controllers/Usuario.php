@@ -25,7 +25,7 @@ class Usuario extends BaseController{
             //dd($dados);
             
         }else{
-            $dados = $this->usuarioModel->paginate(10);
+           $dados = $this->usuarioModel->paginate(10);
         }
         $pages = $this->usuarioModel->pager;
         echo view('_partials/header');
@@ -41,7 +41,7 @@ class Usuario extends BaseController{
         if ($this->session->has('logged_in')) {
         }else{
             return redirect()->to(base_url('Login/index'));
-        }
+         }
     }
 
     public function editar($id){
@@ -57,7 +57,7 @@ class Usuario extends BaseController{
         }
     }
 
-    public function salvar(){
+    public function cadastrar(){
         $usuario = $this->request->getPost();
         $this->usuarioModel->save($usuario);
         return redirect()->to('Usuario/index');

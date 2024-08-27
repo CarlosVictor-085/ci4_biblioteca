@@ -1,60 +1,34 @@
 <?php
-// Número de registros a serem gerados
-$num_records = 1000;
-
-// Nome do arquivo SQL
-$file_name = "insert_usuario.sql";
-
-// Funções para gerar dados aleatórios
-function randomName() {
-    $first_names = ['Ana', 'João', 'Maria', 'Pedro', 'Lucas', 'Laura', 'Carlos', 'Sofia', 'Gabriel', 'Julia'];
-    $last_names = ['Silva', 'Santos', 'Oliveira', 'Pereira', 'Costa', 'Almeida', 'Ferreira', 'Rodrigues', 'Lima', 'Gomes'];
-    
-    return $first_names[array_rand($first_names)] . ' ' . $last_names[array_rand($last_names)];
+// Função para gerar um nome fictício
+function gerarNome() {
+    $nomes = ['Ana', 'Pedro', 'Maria', 'João', 'Carlos', 'Fernanda', 'Juliana', 'Ricardo', 'Roberta', 'Marcelo'];
+    $sobrenomes = ['Silva', 'Souza', 'Oliveira', 'Pereira', 'Costa', 'Almeida', 'Barbosa', 'Gomes', 'Santos', 'Ferreira'];
+    return $nomes[array_rand($nomes)] . ' ' . $sobrenomes[array_rand($sobrenomes)];
 }
 
-function randomEmail($name) {
-    $domains = ['example.com', 'test.com', 'demo.com'];
-    $namePart = strtolower(str_replace(' ', '.', $name));
-    return $namePart . '@' . $domains[array_rand($domains)];
+// Função para gerar um e-mail fictício
+function gerarEmail($nome) {
+    return strtolower(str_replace(' ', '.', $nome)) . '@example.com';
 }
 
-function randomPassword() {
-    return substr(str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'), 0, 12);
+// Função para gerar um telefone fictício
+function gerarTelefone() {
+    return '(11) 9' . rand(10000000, 99999999);
 }
 
-function randomPhoneNumber() {
-    return '+55 ' . rand(11, 99) . ' 9' . rand(1000, 9999) . '-' . rand(1000, 9999);
+// Gerar e imprimir instruções SQL para inserir dados
+for ($i = 0; $i < 1000; $i++) { // Gera 1000 editoras
+    $nome = gerarNome();
+    $email = gerarEmail($nome);
+    $telefone = gerarTelefone();
+
+    $sql = sprintf(
+        "INSERT INTO editora (nome, email, telefone) VALUES ('%s', '%s', '%s');",
+        $nome,
+        $email,
+        $telefone
+    );
+
+    echo $sql . "\n";
 }
-
-// Abre o arquivo para escrita
-$file = fopen($file_name, 'w');
-
-// Escreve o início da instrução INSERT
-fwrite($file, "INSERT INTO usuario (nome, email, senha, telefone) VALUES\n");
-
-// Gera os registros
-for ($i = 1; $i <= $num_records; $i++) {
-    $nome = randomName();
-    $email = randomEmail($nome);
-    $senha = randomPassword();
-    $telefone = randomPhoneNumber();
-    
-    // Adiciona os valores no arquivo
-    $line = "('$nome', '$email', '$senha', '$telefone')";
-    
-    // Se não for o último registro, adicione uma vírgula
-    if ($i < $num_records) {
-        $line .= ",\n";
-    } else {
-        $line .= ";\n"; // Finaliza a instrução INSERT
-    }
-    
-    fwrite($file, $line);
-}
-
-// Fecha o arquivo
-fclose($file);
-
-echo "$file_name gerado com sucesso!";
 ?>

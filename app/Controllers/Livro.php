@@ -20,10 +20,23 @@ class Livro extends BaseController
     }
 
     public function index(){
+
+        $pesquisa = $this->request->getPost();
+        if(count($pesquisa) > 0){
+            $livro = $this->livroModel->join('obra', 'livro.id_obra = obra.id')
+            ->orlike('obra.titulo',$pesquisa['pesquisa'])
+            ->orlike('status',$pesquisa['pesquisa'])
+            ->orlike('disponivel',$pesquisa['pesquisa']);
+            //dd($livro);
+            $livro = $livro->paginate(10);
+            //dd($livro);
+        }else{
+            $livro = $this->livroModel->paginate(10);
+        };
+
         $statusdisponivel = LivroModel::STATUSLOCADO;
         $status = LivroModel::STATUSLIVRO;
         $obra = $this->obraModel->findAll();
-        $livro = $this->livroModel->paginate(10);
         $pager = $this->livroModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');

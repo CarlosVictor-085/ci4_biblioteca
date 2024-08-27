@@ -1,6 +1,4 @@
-<?php
-
-namespace App\Models;
+<?php namespace App\Models;
 
 use CodeIgniter\Model;
 
@@ -12,9 +10,7 @@ class UsuarioModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nome', 'email','telefone','senha'];
-
-    protected bool $allowEmptyInserts = false;
+    protected $allowedFields    = ['nome', 'email', 'telefone', 'senha'];
 
     // Dates
     protected $useTimestamps = false;
@@ -31,12 +27,23 @@ class UsuarioModel extends Model
 
     // Callbacks
     protected $allowCallbacks = true;
-    protected $beforeInsert   = [];
+    protected $beforeInsert   = ['hashPassword'];
     protected $afterInsert    = [];
-    protected $beforeUpdate   = [];
+    protected $beforeUpdate   = ['hashPassword'];
     protected $afterUpdate    = [];
     protected $beforeFind     = [];
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    // Callback to hash password before insert/update
+    protected function hashPassword(array $data)
+{
+    if (isset($data['data']['senha'])) {
+        $data['data']['senha'] = password_hash($data['data']['senha'], PASSWORD_DEFAULT);
+        log_message('info', 'Senha hasheada com sucesso.');
+    }
+    return $data;
+}
+
 }

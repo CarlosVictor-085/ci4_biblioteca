@@ -23,12 +23,12 @@
         </thead>
         <tbody>
         <?php foreach($listaUsuarios as $u) :?>
-                <tr>
+                <tr onclick="location.href='<?=base_url('Usuario/editar/'.$u['id'])?>'" role="button">
                     <td>
                         <?=$u['id']?>
                     </td>
                     <td>
-                        <?=anchor("Usuario/editar/".$u['id'],$u['nome'])?>
+                        <?=$u['nome']?>
                     </td>
                     <td>
                         <?=$u['email']?>
