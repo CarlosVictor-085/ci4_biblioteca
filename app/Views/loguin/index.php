@@ -17,15 +17,30 @@
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" name="email" value="<?php echo old('email'); ?>">
                 </div>
-                <div class="form-group">
-                    <label for="senha">Senha</label>
-                    <div class="input-group mb-3">
-                    <input type="password" class="form-control" id="senha" name="senha">
-                        <div class="input-group-append align-self-center ms-2">
-                            <i class="bi bi-eye-fill input-group-text" style="Height: 38px" id="btn-senha" onclick="mostrarSenha()"></i>
-                        </div>
+                <div class="form-password-toggle">
+                    <label class="form-label" for="senha">Senha</label>
+                    <div class="input-group input-group-merge">
+                    <input type="password" class="form-control" aria-describedby="basic-default-password" id="senha" name="senha">
+                        <span class="input-group-text cursor-pointer" id="basic-default-password">
+                            <i class="bi bi-eye-fill  id="btn-senha" onclick="mostrarSenha()"></i>
+                        </span>
                     </div>
                 </div><br>
+                <div class="form-password-toggle">
+                        <label class="form-label" for="basic-default-password32">Password</label>
+                        <div class="input-group input-group-merge">
+                          <input
+                            type="password"
+                            class="form-control"
+                            id="basic-default-password32"
+                            placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                            aria-describedby="basic-default-password"
+                          />
+                          <span class="input-group-text cursor-pointer" id="basic-default-password"
+                            ><i class="bx bx-hide"></i
+                          ></span>
+                        </div>
+                      </div>
                 <button type="submit" class="btn btn-dark">Entrar</button>
             </form>
         </div>
