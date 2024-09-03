@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg border-bottom border-body  mb-3" data-bs-theme="white">
   <div class="container">    
     <a class="navbar-brand" href="<?=base_url("Home/index")?>">
-      <img src="<?=base_url("assets/img/sga.png")?>" alt="Bootstrap" width="50" height="50">
+      <img src="<?=base_url("assets/img/sgar.png")?>" alt="Bootstrap" width="50" height="50">
     </a>
     <?=anchor("#","Biblioteca",['class' => 'navbar-brand'])?>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

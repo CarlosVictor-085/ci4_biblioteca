@@ -26,19 +26,15 @@ class Aluno extends BaseController{
             $dados = $dados->paginate(10);
             
         }else{
-            $dados = $this->alunoModel->paginate(10);
+        $dados = $this->alunoModel->paginate(10);
         }; 
         $pager = $this->alunoModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
         echo view('aluno/index.php',['listaAlunos' => $dados,'pager' => $pager]);
         echo view('_partials/footer');
-
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
+
 
     public function cadastrar(){
         $aluno = $this->request->getPost();

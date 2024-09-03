@@ -33,10 +33,6 @@ class Editora extends BaseController
         echo view('editora/index.php',['listaEditora' => $dados,'pager' => $pager]);
         echo view('_partials/footer');
 
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function cadastrar(){

@@ -42,11 +42,6 @@ class Livro extends BaseController
         echo view('_partials/navbar');
         echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status, 'pager'=> $pager]);
         echo view('_partials/footer');
-
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function editar($id){
@@ -59,10 +54,6 @@ class Livro extends BaseController
         echo view('livro/edit',['listaObra' => $obra, 'livro' => $livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
         echo view('_partials/footer');
 
-                if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
 

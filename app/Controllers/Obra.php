@@ -46,10 +46,6 @@ class Obra extends BaseController
         echo view('obra/index.php',['listaObra'=>$obra,'pager' => $pager]);
         echo view('_partials/footer');
 
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function cadastrar(){

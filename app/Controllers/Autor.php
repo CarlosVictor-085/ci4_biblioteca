@@ -30,11 +30,6 @@ class Autor extends BaseController
         echo view('_partials/navbar');
         echo view('autor/index.php',['listaAutor' => $dados, 'pager' => $pager]);
         echo view('_partials/footer');
-
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function cadastrar(){

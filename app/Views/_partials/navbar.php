@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg border-bottom border-body  mb-3" data-bs-theme="white">
   <div class="container">    
     <a class="navbar-brand" href="<?=base_url("Home/index")?>">
-      <img src="<?=base_url("assets/img/sga.png")?>" alt="Bootstrap" width="50" height="50">
+      <img src="<?=base_url("assets/img/sgar.png")?>" alt="Bootstrap" width="50" height="50">
     </a>
     <?=anchor("#","Biblioteca",['class' => 'navbar-brand'])?>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,33 +10,31 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav nav-tabs me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <?=anchor("Aluno/index","Aluno",['class' => 'nav-link text-black', 'aria-current'=>'page'])?>
+        <a href='<?=base_url('Aluno/index')?>'class="nav-link text-black aria-current">Aluno</a>
         </li>
         <li class="nav-item">
-        <?=anchor("Autor/index","Autor",['class' => 'nav-link text-black', 'aria-current'=>'page'])?>
-        </li>
-        <?php if(session()->get('nome') == 'admin') : ?>
-        <li class="nav-item">
-        <?=anchor("Usuario/index","Usuario",['class' => 'nav-link text-black', 'aria-current'=>'page'])?>
-        </li>
-        <?php endif ?>
-        <li class="nav-item">
-          <?=anchor("Editora/index","Editora",['class' => 'nav-link text-black', 'aria-current'=>'page',])?>
+        <a href='<?=base_url('Autor/index')?>'class="nav-link text-black aria-current">Autor</a>
         </li>
         <li class="nav-item">
-          <?=anchor("Obra/index","Obra",['class' => 'nav-link text-black',])?>
+        <a href='<?=base_url('Usuario/index')?>'class="nav-link text-black aria-current">Usuario</a>
         </li>
         <li class="nav-item">
-          <?=anchor("Livro/index","Livro",['class' => 'nav-link text-black', 'aria-current'=>'page',])?>
+          <a href='<?=base_url('Editora/index')?>'class="nav-link text-black aria-current">Editora</a>
         </li>
         <li class="nav-item">
-          <?=anchor("Emprestimo/index","Emprestimo",['class' => 'nav-link text-black', 'aria-current'=>'page',])?>
+          <a href='<?=base_url('Obra/index')?>'class="nav-link text-black aria-current">Obra</a>
+        </li>
+        <li class="nav-item">
+          <a href='<?=base_url('Livro/index')?>'class="nav-link text-black aria-current">Livro</a>
+        </li>
+        <li class="nav-item">
+          <a href='<?=base_url('Emprestimo/index')?>'class="nav-link text-black aria-current">Emprestimo</a>
         </li>
         <li class="nav-item ml-auto">
       </ul>
       <li class="nav-link active aria-current m-2 ">
             Ola, <?php
-            echo session()->get('nome');
+            echo session()->get('email');
             ?>
       </li>
       

@@ -40,10 +40,6 @@ class Emprestimo extends BaseController
         echo view('emprestimo/index.php',['listaEmprestimo'=>$emprestimo,'listaLivro'=>$livro,'listaAluno'=> $aluno,'listaUsuario'=>$usuario,'listaObra' => $dadosobra,'pager' => $pager]);
         echo view('_partials/footer');
 
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function cadastrar()

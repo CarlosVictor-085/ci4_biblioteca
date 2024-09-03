@@ -13,13 +13,8 @@ class Home extends BaseController
     }
     public function index(){
         echo view('_partials/header');
-        echo view('_partials/navbar');
+        echo view('_partials/navbar2');
         echo view('home/index.php');
         echo view('_partials/footer');
-        
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 }
