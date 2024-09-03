@@ -6,3 +6,4 @@
 <script src="<?=base_url('assets/jquery/olho.js')?>"></script>
 <script src="<?=base_url('assets/jquery/cpf.js')?>"></script>
 <script src="<?=base_url('assets/jquery/menuitem.js')?>"></script>
+<script src="<?=base_url('assets/jquery/user.js')?>"></script>
