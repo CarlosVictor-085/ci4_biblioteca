@@ -1,17 +1,12 @@
 <div class="container">
     <h2>Emprestimo</h2>
-                <?=form_open("Emprestimo/index")?>
-                <div class="float-end me-3 d-flex" role="search">
-                    <input name='pesquisa'class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"> 
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </div>
-                <?=form_close()?>
         <!-- Button do Modal -->
-        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary d-grid" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
         </button>
+        <br>
         <!-- Tabela de Usuario -->
-    <table class="table">
+        <table id="table" class="table table-hover table-bordered">
         <thead>
         <tr>
             <td>ID</td>
@@ -21,12 +16,13 @@
             <td>LIVRO</td>
             <td>ALUNO</td>
             <td>USUARIO</td>
+            <td>DEVOLUÇAO</td>
         </tr>
         </thead>
         <tbody>
             <?php foreach($listaEmprestimo as $em) :?>
-                <tr>
-                    <td>
+                <tr onclick="location.href='<?=base_url('Emprestimo/editar/'.$em['id'])?>'" role="button">
+                    <td class="text-start">
                         <?=$em['id']?>
                     </td>
                     <td>
@@ -37,7 +33,7 @@
                         $prazo = $em['data_prazo']*24*60*60;
                         $prazo += $data_inicio;
                     ?>
-                    <?=anchor("Emprestimo/editar/".$em['id'],date('d/m/Y',$data_inicio),$em['data_inicio'])?>
+                    <?=date('d/m/Y',$data_inicio)?>
                     </td>
                     <td>
                     <?php
@@ -147,16 +143,15 @@
                 </div>
                 <div class="form-group">
                     <label for="telefone">Usuario:</label>
-                    <select class='form-select' name="id_usuario" id="id_usuario" required>
-                        <?php foreach($listaUsuario as $usuario) : ?>
-                            <option value="<?=$usuario['id']?>"><?=$usuario['nome']?></option>
-                        <?php endforeach ?>
-                    </select>
+                    <!-- Exibe o nome do usuário, mas o campo é somente leitura -->
+                    <input type="text" class="form-control" name="nome_usuario" id="nome_usuario" value="<?= session()->get('nome') ?>" readonly>
+                    <!-- Campo oculto para enviar o ID do usuário -->
+                    <input type="hidden" name="id_usuario" value="<?=session()->get('id') ?>">
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-dark">Cadastrar</button>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-outline-success">Cadastrar</button>
             </div>
         </div>
     </div>

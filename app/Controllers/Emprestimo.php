@@ -61,10 +61,6 @@ class Emprestimo extends BaseController
         echo view('emprestimo/edit',['emprestimo' => $dados,'listaAluno' => $dadosaluno,'listaLivro' => $dadoslivro,'listaUsuario' => $dadosusuario,'listaObra' => $dadosobra]);
         echo view('_partials/footer');
 
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
     public function salvar(){
         $dados = $this->request->getPost();

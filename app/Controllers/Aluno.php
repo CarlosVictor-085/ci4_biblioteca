@@ -12,22 +12,10 @@ class Aluno extends BaseController{
     
     public function __construct(){
         $this->alunoModel = new AlunoModel();
-        $this->session = \Config\Services::session();
     }
     
     public function index(){
-        $pesquisa = $this->request->getPost();
-        if(count($pesquisa) > 0){
-            $dados = $this->alunoModel->like('nome', $pesquisa['pesquisa'])
-                                    ->orlike('cpf', $pesquisa['pesquisa'])
-                                    ->orlike('email', $pesquisa['pesquisa'])
-                                    ->orLike('telefone', $pesquisa['pesquisa'])
-                                    ->orLike('turma',$pesquisa['pesquisa']);
-            $dados = $dados->paginate(10);
-            
-        }else{
-        $dados = $this->alunoModel->paginate(10);
-        }; 
+        $dados = $this->alunoModel->findAll();
         $pager = $this->alunoModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
@@ -38,7 +26,6 @@ class Aluno extends BaseController{
 
     public function cadastrar(){
         $aluno = $this->request->getPost();
-        $aluno['senha']= md5("senhaforte");
         $this->alunoModel->save($aluno);
         return redirect()->to('Aluno/index');
     }
@@ -50,10 +37,6 @@ class Aluno extends BaseController{
         echo view('aluno/edit',['aluno' => $dados]);
         echo view('_partials/footer');
 
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function salvar(){

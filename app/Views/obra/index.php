@@ -1,40 +1,35 @@
 <div class="container">
     <h2>Obra</h2>
-                <?=form_open("Obra/index")?>
-                <div class="float-end me-3 d-flex" role="search">
-                    <input name='pesquisa'class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"> 
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </div>
-                <?=form_close()?>
         <!-- Button do Modal -->
-        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary d-grid" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
         </button>
+        <br>
         <!-- Tabela de Usuario -->
-    <table class="table">
+        <table id="table" class="table table-hover table-bordered">
         <thead>
         <tr>
-            <td>ID</td>
+            <td class="text-start">ID</td>
             <td>TITULO</td>
             <td>CATEGORIA</td>
-            <td>ANO</td>
+            <td class="text-start">ANO</td>
             <td>ISBN</td>
             <td>EDITORA</td>
         </tr>
         </thead>
         <tbody>
             <?php foreach($listaObra as $ob) :?>
-                <tr>
-                    <td>
+                <tr onclick="location.href='<?=base_url('Obra/editar/'.$ob['id'])?>'" role="button">
+                    <td class="text-start">
                         <?=$ob['id']?>
                     </td>
                     <td>
-                        <?=anchor("Obra/editar/".$ob['id'],$ob['titulo'])?>
+                        <?=$ob['titulo']?>
                     </td>
                     <td>
                         <?=$ob['categoria']?>
                     </td>
-                    <td>
+                    <td class="text-start">
                         <?=$ob['ano_publicacao']?>
                     </td>
                     <td>
@@ -47,10 +42,6 @@
             <?php endforeach ?>  
         </tbody>
     </table>
-    <div class="row">
-        <?=$pager->links('default','pager')?>
-    </div>
-
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <?=form_open("Obra/cadastrar")?> 
@@ -62,23 +53,23 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="titulo">Titulo:</label>
+                    <label class="form-label" for="titulo">Titulo:</label>
                     <input class='form-control' type="text" id='titulo' name='titulo'>
                 </div>
                 <div class="form-group">
-                    <label for="categoria">Categoria:</label>
+                    <label class="form-label" for="categoria">Categoria:</label>
                     <input class='form-control' type="text" id='categoria' name='categoria'>
                 </div>
                 <div class="form-group">
-                    <label for="ano">Ano:</label>
+                    <label class="form-label" for="ano">Ano:</label>
                     <input class='form-control' type="text" id='ano_publicacao' name='ano_publicacao'>
                 </div>
                 <div class="form-group">
-                    <label for="isbn">ISBN:</label>
+                    <label class="form-label" for="isbn">ISBN:</label>
                     <input class='form-control' type="text" id='isbn' name='isbn'>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">EDITORA:</label>
+                    <label class="form-label" for="telefone">EDITORA:</label>
                     <select class='form-select' name="id_editora" id="id_editora" required>
                         <option>Selecione uma editora</option>
                         <?php foreach($listaObra as $ob) : ?>
@@ -88,8 +79,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-dark">Cadastrar</button>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-outline-success">Cadastrar</button>
             </div>
         </div>
     </div>

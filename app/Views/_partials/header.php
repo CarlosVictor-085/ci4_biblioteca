@@ -7,6 +7,7 @@
   data-theme="theme-default"
   data-assets-path="../assets/"
   data-template="vertical-menu-template-free"
+  data-style="dark"
 >
 
     <meta charset="UTF-8">
@@ -27,27 +28,27 @@
 />
 
 <!-- Icons. Uncomment required icon fonts -->
-<link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+<link rel="stylesheet" href="<?=base_url('assets/vendor/fonts/boxicons.css')?>" />
 
 <!-- Core CSS -->
-<link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
-<link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-<link rel="stylesheet" href="../assets/css/demo.css" />
+<link rel="stylesheet" href="<?=base_url('assets/vendor/css/core.css')?>" class="template-customizer-core-css" />
+<link rel="stylesheet" href="<?=base_url('assets/vendor/css/theme-default.css')?>" class="template-customizer-theme-css" />
+<link rel="stylesheet" href="<?=base_url('assets/css/demo.css')?>" />
 
 <!-- Vendors CSS -->
-<link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+<link rel="stylesheet" href="<?=base_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')?>" />
 
 <!-- Page CSS -->
 <!-- Page -->
-<link rel="stylesheet" href="../assets/vendor/css/pages/page-auth.css" />
+<link rel="stylesheet" href="<?=base_url('assets/vendor/css/pages/page-auth.css')?>" />
 <!-- Helpers -->
-<script src="../assets/vendor/js/helpers.js"></script>
+<script src="<?=base_url('assets/vendor/js/helpers.js')?>"></script>
 
 <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
 <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-<script src="../assets/js/config.js"></script>
+<script src="<?=base_url('assets/js/config.js')?>"></script>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="<?=base_url('assets/img/favicon/favicon.icon')?>" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,25 +59,30 @@
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="<?=base_url('assets/vendor/fonts/boxicons.css')?>" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <link rel="stylesheet" href="<?=base_url('assets/vendor/css/core.css')?>" class="template-customizer-core-css" />
+    <link id="dark-theme-stylesheet" rel="stylesheet" href="<?= base_url('assets/css/core-dark.css') ?>" disabled />
+    <link rel="stylesheet" href="<?=base_url('assets/vendor/css/theme-default.css')?>" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="<?=base_url('public/assets/css/demo.css')?>"/>
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="<?=base_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')?>"/>
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="../assets/vendor/js/helpers.js"></script>
+    <script src="<?=base_url('assets/vendor/js/helpers.js')?>"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="../assets/js/config.js"></script>
+    <script src="<?=base_url('assets/js/config.js')?>"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="<?=base_url('js/main_2.js')?>"></script>
+  
     
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.6/css/dataTables.bootstrap5.css">
     <title>Biblioteca</title>
 </head>
 <body>

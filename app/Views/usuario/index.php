@@ -1,21 +1,22 @@
 <div class="container">
     <h2>Usuario</h2>
-                <?=form_open("Usuario/index")?>
-                <div class="float-end me-3 d-flex" role="search">
-                    <input name='pesquisa'class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"> 
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        <div class="float-end me-3 d-flex" role="search">
+            <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
                 </div>
-                <?=form_close()?>
+            </div>                
+        </div>                
            
         <!-- Button do Modal -->
-        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary d-grid" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
-        </button> 
+        </button>
+        <br>
         <!-- Tabela de Usuario -->
-    <table class="table">
+        <table id="table" class="table table-hover table-bordered">
         <thead>
         <tr>
-            <td>ID</td>
+            <td class="text-start">ID</td>
             <td>NOME</td>
             <td>EMAIL</td>
             <td>TELEFONE</td>
@@ -24,7 +25,7 @@
         <tbody>
         <?php foreach($listaUsuarios as $u) :?>
                 <tr onclick="location.href='<?=base_url('Usuario/editar/'.$u['id'])?>'" role="button">
-                    <td>
+                    <td class="text-start">
                         <?=$u['id']?>
                     </td>
                     <td>
@@ -40,9 +41,6 @@
             <?php endforeach ?>  
         </tbody>
     </table>
-    <div class="row">
-        <?= $pager->links('default', 'pager') ?>
-    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -55,25 +53,32 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="nome">Nome:</label>
+                    <label class="form-label" for="nome">Nome:</label>
                     <input class='form-control' type="text" id='nome' name='nome'>
                 </div>
                 <div class="form-group">
-                    <label for="e-mail">Email:</label>
+                    <label class="form-label" for="e-mail">Email:</label>
                     <input class='form-control' type="text" id='email' name='email'>
                 </div>
                 <div class="form-group">
-                    <label for="senha">Senha:</label>
-                    <input class='form-control' type="text" id='senha' name='senha'>
+                    <label class="form-label" for="senha">Senha:</label>
+                    <div class="form-password-toggle">
+                    <div class="input-group input-group-merge">
+                    <input type="password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"id="senha" name="senha">
+                        <span class="input-group-text cursor-pointer" id="basic-default-password">
+                            <i class="bi bi-eye-fill"  id="btn-senha" onclick="mostrarSenha()"></i>
+                        </span>
+                    </div>
+                </div>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Telefone:</label>
+                    <label class="form-label" for="telefone">Telefone:</label>
                     <input class='form-control' type="text" id='telefone' name='telefone'>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-dark">Cadastrar</button>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-outline-success">Cadastrar</button>
             </div>
         </div>
     </div>

@@ -16,42 +16,34 @@ class Livro extends BaseController
     public function __construct(){
         $this->obraModel = new ObraModel();
         $this->livroModel = new LivroModel();
-        $this->session = \Config\Services::session();
     }
 
     public function index(){
-
-        $pesquisa = $this->request->getPost();
-        if(count($pesquisa) > 0){
-            $livro = $this->livroModel->join('obra', 'livro.id_obra = obra.id')
-            ->orlike('obra.titulo',$pesquisa['pesquisa'])
-            ->orlike('status',$pesquisa['pesquisa'])
-            ->orlike('disponivel',$pesquisa['pesquisa']);
-            //dd($livro);
-            $livro = $livro->paginate(10);
-            //dd($livro);
-        }else{
-            $livro = $this->livroModel->paginate(10);
-        };
-
+        $livro = $this->livroModel->join('obra', 'livro.id_obra = obra.id')
+        ->select('livro.id,livro.disponivel,livro.status,obra.titulo')->findAll();
+        //$livro = $this->livroModel->paginate(10);
+        //dd($livro);
         $statusdisponivel = LivroModel::STATUSLOCADO;
         $status = LivroModel::STATUSLIVRO;
         $obra = $this->obraModel->findAll();
         $pager = $this->livroModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('livro/index.php',['listaObra'=>$obra,'listaLivro'=>$livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status, 'pager'=> $pager]);
+        echo view('livro/index.php',['listaLivro'=>$livro, 'listaObra'=>$obra, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status, 'pager'=> $pager]);
         echo view('_partials/footer');
     }
 
     public function editar($id){
         $statusdisponivel = LivroModel::STATUSLOCADO;
         $status = LivroModel::STATUSLIVRO;
-        $livro = $this->livroModel->find($id);
+        $livro = $this->livroModel->join('obra', 'livro.id_obra = obra.id')
+        ->select('livro.id,livro.disponivel,livro.status,livro.id_obra,obra.titulo')->find($id);
+        //$livro = $this->livroModel->find($id);
+        //dd($livro);
         $obra = $this->obraModel->findAll();
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('livro/edit',['listaObra' => $obra, 'livro' => $livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
+        echo view('livro/edit',['obra' => $obra, 'livro' => $livro, 'statusdisponivel'=>$statusdisponivel, 'status'=>$status]);
         echo view('_partials/footer');
 
     }
@@ -74,4 +66,5 @@ class Livro extends BaseController
         $this->livroModel->delete($livro);
         return redirect()->to('Livro/index');
     }
+    
 }

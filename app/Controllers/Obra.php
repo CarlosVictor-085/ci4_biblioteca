@@ -22,23 +22,12 @@ class Obra extends BaseController
         $this->obraModel = new ObraModel();
         $this->autorModel = new AutorModel();
         $this->autorObraModel = new AutorObraModel();
-        $this->session = \Config\Services::session();
     }
     
     public function index(){
-        $pesquisa = $this->request->getPost();
-        if(count($pesquisa) > 0){
-            $obra = $this->obraModel->like('titulo',$pesquisa['pesquisa'])
-            ->orlike('categoria',$pesquisa['pesquisa'])
-            ->orLike('ano_publicacao',$pesquisa['pesquisa'])
-            ->orlike('isbn',$pesquisa['pesquisa'])
-            ->orLike('editora.nome', $pesquisa['pesquisa']);
-            //dd($dados);
-        }else{
-        $obra = $this->obraModel->select('editora.nome')->join('editora', 'obra.id_editora = editora.id')->paginate(10);
-        };
-        $obra =$this->obraModel->select('*')->join('editora', 'obra.id_editora = editora.id')->paginate(10);
-        //dd($editora);
+        $obra =$this->obraModel->select('obra.id, obra.titulo, obra.categoria, obra.ano_publicacao, obra.isbn, editora.nome')->join('editora', 'obra.id_editora = editora.id')->findAll();
+        
+        //dd($obra);
         
         $pager = $this->obraModel->pager;
         echo view('_partials/header');
@@ -55,29 +44,22 @@ class Obra extends BaseController
     }
     
     public function editar($id){
-        $obra = $this->obraModel->find($id);
+        $obra =$this->obraModel->select('obra.id, obra.titulo, obra.categoria, obra.ano_publicacao, obra.isbn, obra.id_editora,editora.nome, editora.id')->join('editora', 'obra.id_editora = editora.id')->find($id);
+        //dd($obra);
         $autor = $this->autorModel->findAll();
-        $editora = $this->editoraModel->findAll();
         $dadosAutorObra = $this->autorObraModel->findAll();
-        
+        $editora = $this->editoraModel->findAll();
         echo view('_partials/header');
         echo view('_partials/navbar');
-        echo view('obra/edit',['obra' => $obra,'listaAutor' => $autor,'listaEditora' => $editora,'listaAutorObra' => $dadosAutorObra]);
+        echo view('obra/edit',['obra' => $obra,'editora' => $editora,'listaAutor' => $autor,'listaAutorObra' => $dadosAutorObra]);
         echo view('_partials/footer');
-
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function adicionarAutor(){
         $this->autorObraModel->save(
             $this->request->getPost()
         );
-        return redirect()->to(
-            'Obra/editar/'.$this->request->getPost('id_obra')
-        );
+        return redirect()->to(previous_url());
     }
 
     public function salvar(){
@@ -91,6 +73,4 @@ class Obra extends BaseController
         $this->obraModel->delete($obra);
         return redirect()->to('Obra/index');
     }
-
-
 }

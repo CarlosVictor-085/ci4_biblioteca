@@ -13,18 +13,10 @@ class Autor extends BaseController
     
     public function __construct(){
         $this->autorModel = new AutorModel();
-        $this->session = \Config\Services::session();
     }
 
     public function index(){
-        $pesquisa = $this->request->getPost();
-        if(count($pesquisa) > 0){
-            $dados = $this->autorModel->like('nome',$pesquisa['pesquisa']);
-            $dados = $dados->paginate(10);
-        }else{
-            $dados = $this->autorModel->paginate(10);
-        };
-
+        $dados = $this->autorModel->findAll();
         $pager = $this->autorModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
@@ -45,11 +37,6 @@ class Autor extends BaseController
         echo view('_partials/navbar');
         echo view('autor/edit',['autor' => $dados]);
         echo view('_partials/footer');
-
-        if ($this->session->has('logged_in')) {
-        }else{
-            return redirect()->to(base_url('Login/index'));
-        }
     }
 
     public function salvar(){

@@ -3,7 +3,7 @@
     <input value='<?=$obra['id']?>'class='form-control' type="hidden" id='id' name='id'>
     <div class="row p-2">
         <div class="col-2">
-            <label for="nome">Titulo</label>
+            <label class="form-label" for="nome">Titulo</label>
         </div>
         <div class="col-10">
             <input value='<?=$obra['titulo']?>'class='form-control' type="text" id='titulo' name='titulo'>
@@ -11,7 +11,7 @@
     </div>
     <div class="row p-2">
         <div class="col-2">
-            <label for="nome">Categoria</label>
+            <label class="form-label" for="nome">Categoria</label>
         </div>
         <div class="col-10">
             <input value='<?=$obra['categoria']?>'class='form-control' type="text" id='categoria' name='categoria'>
@@ -19,7 +19,7 @@
     </div>
     <div class="row p-2">
         <div class="col-2">
-            <label for="nome">Ano</label>
+            <label class="form-label" for="nome">Ano</label>
         </div>
         <div class="col-10">
             <input value='<?=$obra['ano_publicacao']?>'class='form-control' type="text" id='ano_publicacao' name='ano_publicacao'>
@@ -27,7 +27,7 @@
     </div>
     <div class="row p-2">
         <div class="col-2">
-            <label for="isbn">ISBN</label>
+            <label class="form-label" for="isbn">ISBN</label>
         </div>
         <div class="col-10">
             <input value='<?=$obra['isbn']?>'class='form-control' type="text" id='isbn' name='isbn'>
@@ -35,15 +35,22 @@
     </div>
     <div class="row p-2">
         <div class="col-2">
-            <label for="editora">Editora</label>
+            <label class="form-label" for="editora">Editora</label>
         </div>
         <div class="col-10">
-            <input value='<?=$obra['id_editora']?>'class='form-control' type="text" id='id_editora' name='id_editora' disabled>
+        <select class='form-select' name="id_editora" id="id_editora" required>
+          <option value="<?=$obra['id_editora']?>" hidden><?=$obra['nome']?></option>
+            <?php foreach($editora as $ed) : ?>
+              <option value="<?=$ed['id']?>" <?= ($ed['id'] == $obra['id_editora']) ? 'selected' : '' ?>>
+                <?=$ed['nome']?>
+              </option>
+            <?php endforeach ?>
+        </select>
         </div>
     </div>
     <div class="row p-2">
         <div class="col-2">
-            <label for="autores">Autores(a)</label>
+            <label class="form-label" for="autores">Autores(a)</label>
         </div>
         <div class="col-10">
             <?php
@@ -60,7 +67,7 @@
 
             <!-- Button do Modal Autores-->
         <div>
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModalautor">
+            <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModalautor">
                 Adicionar...
             </button>
         </div>
@@ -68,9 +75,9 @@
     <div class="row p-4">
         <div class="col">
             <div class="btn-group w-100" role="group">
-                <a href='<?=base_url('Obra/index')?>'class="btn btn-outline-secondary">Cancelar</a>
-                <button type="submit" class="btn btn-outline-success">Salvar</button>
-                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href='<?=base_url('Obra/index')?>'class="btn btn-outline-secondary m-1">Cancelar</a>
+                <button type="submit" class="btn btn-outline-success m-1">Salvar</button>
+                <button type="button" class="btn btn-outline-danger m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Excluir
                 </button>
             </div>
@@ -90,11 +97,11 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            Você tem certeza que deseja excluir: <br>ID: <?=$obra['id']?><br>Titulo: <?=$obra['titulo']?><br>Ano: <?=$obra['ano_publicacao']?><br>ISBN: <?=$obra['isbn']?><br> Editora: <?=$obra['id_editora']?>
+            Você tem certeza que deseja excluir: <br>ID: <?=$obra['id']?><br>Titulo: <?=$obra['titulo']?><br>Ano: <?=$obra['ano_publicacao']?><br>ISBN: <?=$obra['isbn']?><br> Editora: <?=$obra['nome']?>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="submit" class="btn btn-danger">Excluir</button>
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="submit" class="btn btn-outline-danger">Excluir</button>
         </div>
         </div>
         <?=form_close()?>
@@ -123,8 +130,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="submit" class="btn btn-success">Salvar</button>
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-outline-success">Salvar</button>
                 </div>
             </div>
         </div>

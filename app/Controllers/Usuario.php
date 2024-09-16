@@ -12,21 +12,10 @@ class Usuario extends BaseController{
     
     public function __construct(){
         $this->usuarioModel = new UsuarioModel();
-        $this->session = \Config\Services::session();
     }
     
     public function index(){
-        $pesquisa = $this->request->getPost();
-        if(count($pesquisa) > 0){
-        $dados = $this->usuarioModel->like('nome',$pesquisa['pesquisa'])
-            ->orlike('email',$pesquisa['pesquisa'])
-            ->orlike('telefone',$pesquisa['pesquisa']);
-            $dados = $dados->paginate(10);
-            //dd($dados);
-            
-        }else{
-           $dados = $this->usuarioModel->paginate(10);
-        }
+        $dados = $this->usuarioModel->findAll();
         $pages = $this->usuarioModel->pager;
         echo view('_partials/header');
         echo view('_partials/navbar');
@@ -53,6 +42,4 @@ class Usuario extends BaseController{
         $this->usuarioModel->delete($usuario);
         return redirect()->to('Usuario/index');
     }
-
-
 }

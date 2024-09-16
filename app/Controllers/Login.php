@@ -17,7 +17,6 @@ class Login extends Controller
     public function index()
     {
         echo view('_partials/header');
-        echo view('_partials/navbarlogin');
         echo view('loguin/index');
         echo view('_partials/footer');
         
@@ -46,6 +45,8 @@ class Login extends Controller
         // Criar sessão
         $this->session->set('logged_in', true);
         $this->session->set('email', $email);
+        $this->session->set('nome', $usuario['nome']);
+        $this->session->set('id', $usuario['id']);
         // Redirecionar para a página de dashboard
         return redirect()->to(base_url('Home/index'));
     } else {

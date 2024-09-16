@@ -14,23 +14,35 @@
             <label for="telefone">Livro:</label>
         </div>
         <div class="col-10">
-            <select class='form-select' name="id_livro" id="id_livro" required>
-            <?php
-                        foreach($listaObra as $obra){
-                            $obras[$obra['id']] = $obra['titulo'];
-                        }
-                        foreach($listaLivro as $livro){
-                            $livros[$livro['id']] = $obras[$livro['id_obra']];
-                        }
-                        ?>
-                        <option value="<?=$livro['id']?>"><?=$livros[$emprestimo['id_livro']]?></option>
-            </select>
+        <select class='form-select' name="id_livro" id="id_livro" required>
+        <?php
+            // Cria um array associativo de ID para título de obra
+            $obras = [];
+            foreach($listaObra as $obra) {
+             $obras[$obra['id']] = $obra['titulo'];
+            }
+
+            // Cria um array associativo de ID para título de livro
+            $livros = [];
+            foreach($listaLivro as $livro) {
+                $livros[$livro['id']] = $obras[$livro['id_obra']];
+            }
+
+            // Itera sobre a lista de livros para criar as opções do select
+            foreach($listaLivro as $livro) {
+            // Verifica se o livro atual é o selecionado
+            $selected = ($livro['id'] == $emprestimo['id_livro']) ? 'selected' : '';
+            echo "<option value=\"{$livro['id']}\" $selected>{$livros[$livro['id']]}</option>";
+        }
+        ?>
+        </select>
+
         </div>
     </div>
     <div class="row p-4">
         <div class="col">
             <div class="btn-group w-100" role="group">
-                <a href='http://localhost:8080/index.php/Emprestimo/index'class="btn btn-outline-secondary">Cancelar</a>
+                <a href='<?=base_url('Emprestimo/index')?>'class="btn btn-outline-secondary">Cancelar</a>
                 <button type="submit" class="btn btn-outline-success">Salvar</button>
             </div>
         </div>

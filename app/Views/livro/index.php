@@ -1,20 +1,15 @@
 <div class="container">
     <h2>Livro</h2>
-                <?=form_open("Livro/index")?>
-                <div class="float-end me-3 d-flex" role="search">
-                    <input name='pesquisa'class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"> 
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </div>
-                <?=form_close()?>
         <!-- Button do Modal -->
-        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary d-grid" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Novo
         </button>
+        <br>
         <!-- Tabela de Usuario -->
-    <table class="table">
+        <table id="table" class="table table-hover table-bordered">
         <thead>
         <tr>
-            <td>ID</td>
+            <td class="text-start">ID</td>
             <td>DISPONIVEL</td>
             <td>STATUS</td>
             <td>OBRA</td>
@@ -22,29 +17,24 @@
         </thead>
         <tbody>
             <?php foreach($listaLivro as $li) :?>
-                <tr>
-                    <td>
+                <tr onclick="location.href='<?=base_url('Livro/editar/'.$li['id'])?>'" role="button">
+                    <td class="text-start">
                         <?=$li['id']?>
                     </td>
                     <td>
-                        <?=anchor("Livro/editar/".$li['id'],$statusdisponivel[$li['disponivel']])?>
+                        <?=$statusdisponivel[$li['disponivel']]?>
                     </td>
                     <td>
                         <?=$status[$li['status']]?>
                     </td>
                     <td>
-                        <?php
-                            foreach($listaObra as $obra){
-                                $livros[$obra['id']] = $obra['titulo'];
-                            }
-                        ?>
-                        <?=$livros[$li['id_obra']]?>
+                        <?=$li['titulo']?>
                     </td>
                 </tr>
             <?php endforeach ?>  
         </tbody>
     </table>
-    <?=$pager->links('default','pager')?>                            
+                                
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <?=form_open("Livro/cadastrar")?> 
@@ -56,7 +46,7 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="disponivel">Disponivel:</label>
+                    <label class="form-label" for="disponivel">Disponivel:</label>
                     <select class='form-select' name="disponivel" id="disponivel" required>
                         <option>Selecione a Disponibilidade</option>
                         <?php foreach($statusdisponivel as $chave => $valor) : ?>
@@ -65,7 +55,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="status">Status:</label>
+                    <label class="form-label" for="status">Status:</label>
                     <select class='form-select' name="status" id="status" required>
                         <option>Selecione o Status</option>
                         <?php foreach($status as $chave => $valor) : ?>
@@ -74,7 +64,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Obra:</label>
+                    <label class="form-label" for="telefone">Obra:</label>
                     <select class='form-select' name="id_obra" id="id_obra" required>
                         <option>Selecione uma obra</option>
                         <?php foreach($listaObra as $obra) : ?>
@@ -84,11 +74,31 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-dark">Cadastrar</button>
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-outline-success">Cadastrar</button>
             </div>
         </div>
     </div>
         <?=form_close()?>
     </div>
 </div>
+<script>
+$(document).ready(function() {
+    $('#pesquisa').keyup(function() {
+        var searchQuery = $(this).val();
+        searchBooks(searchQuery);
+    });
+});
+
+function searchBooks(searchQuery) {
+    $.ajax({
+        url: '<?=base_url('Livro/busca')?>',
+        type: 'POST',
+        data: {pesquisa: searchQuery},
+        success: function(data) {
+            // Substitua o corpo da tabela com os novos resultados de busca
+            $('tbody').html(data);
+        }
+    });
+}
+</script>
