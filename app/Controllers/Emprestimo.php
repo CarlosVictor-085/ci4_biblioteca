@@ -97,8 +97,19 @@ class Emprestimo extends BaseController
         return redirect()->to('emprestimo/index');
     }
     public function editar($id)
-    {
-        $dados = $this->EmprestimoModel->find($id);
+    {  
+            // Recupera o empréstimo específico pelo ID
+            $dados = $this->EmprestimoModel->find($id);
+            // Processa a data de início
+            if ($dados) {
+                $data_inicio = $dados['data_inicio'];
+                $data_inicio = explode('-', $data_inicio);
+                $data_inicio = mktime(0, 0, 0, $data_inicio[1], $data_inicio[2], $data_inicio[0]);
+                $dados['data_inicio_formatada'] = date('Y-m-d', $data_inicio); // Formato correto para o input type=date
+            }else {
+                $dados['data_inicio_formatada'] = ''; // Defina como vazio se não houver dados
+            }
+        //dd($dados);
         $dadosaluno = $this->alunoModel->findAll();
         $dadosobra = $this->obraModel->findAll();
         $dadosusuario = $this->usuarioModel->findAll();

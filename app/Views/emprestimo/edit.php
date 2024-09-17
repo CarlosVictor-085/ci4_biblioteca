@@ -2,17 +2,12 @@
     <?=form_open('Emprestimo/salvar')?>
     <input value='<?=$emprestimo['id']?>'class='form-control' type="hidden" id='id' name='id'>
     <input value='<?=$emprestimo['id_livro']?>'type="hidden" name='id_livro_antigo' id='id_livro_antigo'>
-    <?php
-        $data_inicio = $emprestimo['data_inicio'];
-        $data_inicio = explode('-',$data_inicio);
-        $data_inicio = mktime(0,0,0,$data_inicio[1],$data_inicio[2],$data_inicio[0]);
-    ?>
     <div class="row p-2">
         <div class="col-2">
             <label for="data_inicio">Data de Inicio:</label>
         </div>
         <div class="col-10">
-            <input value="<?=$emprestimo['data_inicio']?>" class='form-control' type="date" id='data_inicio' name='data_inicio'>
+            <input value="<?=$emprestimo['data_inicio_formatada']?>" class='form-control' type="date" id='data_inicio' name='data_inicio'>
         </div>
     </div>
     <div class="row p-2">
