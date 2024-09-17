@@ -21,82 +21,39 @@
         </thead>
         <tbody>
             <?php foreach($listaEmprestimo as $em) :?>
-                <tr onclick="location.href='<?=base_url('Emprestimo/editar/'.$em['id'])?>'" role="button">
+                <tr onclick="location.href='<?=base_url('Emprestimo/editar/'.$em['emprestimo_id'])?>'" role="button">
                     <td class="text-start">
-                        <?=$em['id']?>
+                        <?=$em['emprestimo_id']?>
                     </td>
                     <td>
-                    <?php
-                        $data_inicio = $em['data_inicio'];
-                        $data_inicio = explode('-',$data_inicio);
-                        $data_inicio = mktime(0,0,0,$data_inicio[1],$data_inicio[2],$data_inicio[0]);
-                        $prazo = $em['data_prazo']*24*60*60;
-                        $prazo += $data_inicio;
-                    ?>
-                    <?=date('d/m/Y',$data_inicio)?>
+                    <?=$em['data_inicio_formatada']?>
                     </td>
                     <td>
-                    <?php
-                    if($em['data_fim'] != NULL){
-                        $data_fim = $em['data_fim'];
-                        $data_fim = explode('-',$data_fim);
-                        $data_fim = mktime(0,0,0,$data_fim[1],$data_fim[2],$data_fim[0]);
-                    }
-                    ?>
-                        <?php
-                    if($em['data_fim'] != NULL){
-                        echo date('d/m/Y',$data_fim);
-                    }
-                    ?>
+                    <?=!empty($em['data_fim_formatada']) ? $em['data_fim_formatada'] : 'Não definida';?>
                     </td>
                     <td>
-                        <?=date('d/m/Y',$prazo)?>
+                        <?=$em['data_prazo_formatada']?>
                     </td>
                     <td>
-                    <?php
-                        foreach($listaObra as $obra){
-                            $obras[$obra['id']] = $obra['titulo'];
-                        }
-                        foreach($listaLivro as $livro){
-                            $livros[$livro['id']] = $obras[$livro['id_obra']];
-                        }
-                        ?>
-                        <?=$livros[$em['id_livro']]?>
+                        <?=$em['nome_obra']?>
                     </td>
                     <td>
-                    <?php
-                        foreach($listaAluno as $aluno){
-                            $alunos[$aluno['id']] = $aluno['nome'];
-                        }
-                        ?>
-                        <?=$alunos[$em['id_aluno']]?>
+                        <?=$em['nome_aluno']?>
                     </td>
                     <td>
-                    <?php
-                        foreach($listaUsuario as $usuario){
-                            $usuarios[$usuario['id']] = $usuario['nome'];
-                        }
-                        ?>
-                        <?=$usuarios[$em['id_usuario']]?>
+                        <?=$em['nome_usuario']?>
                     </td>
                     <td>
-                        <?php if($em['data_fim'] != NULL):?>
-                            <?php if($data_fim - $prazo <= 0){
-                                echo "Devolução no prazo";
-                            }else{
-                                echo "Devolução fora do prazo";
-                            }
-                            ?>
-                        <?php endif?>
-                        <?php if($em['data_fim'] == NULL):?>
-                            <?=anchor("Emprestimo/devolucao/".$em['id'],"Devolução",['class' => 'btn  btn-dark'])?>
-                        <?php endif?>
+                        <?php if (empty($em['data_fim'])): ?>
+                            <?= anchor("Emprestimo/devolucao/" . $em['emprestimo_id'], "Devolução", ['class' => 'btn btn-dark']) ?>
+                        <?php else: ?>
+                            <?= $em['status_devolucao'] ? $em['status_devolucao'] : 'Aguardando devolução'; ?>
+                        <?php endif; ?>
                     </td>
                 </tr>
             <?php endforeach ?>  
         </tbody>
     </table>
-    <?=$pager->links('default','pager')?>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
