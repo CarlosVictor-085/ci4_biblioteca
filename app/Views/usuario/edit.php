@@ -1,5 +1,5 @@
 <div class="container p-5">
-    <?=form_open('Usuario/cadastrar')?>
+    <?=form_open('Usuario/senha')?>
     <input value='<?=$usuario['id']?>'class='form-control' type="hidden" id='id' name='id'>
     <div class="row p-2">
         <div class="col-2">
@@ -23,6 +23,16 @@
         </div>
         <div class="col-10">
             <input value='<?=$usuario['telefone']?>'class='form-control' type="text" id='telefone' name='telefone'>
+        </div>
+    </div>
+    <div class="row p-2">
+        <div class="col-2">
+            <label class="form-label" for="telefone">Atualizar Senha:</label>
+        </div>
+        <div class="col-10">
+        <a href="<?= base_url('Usuario/senha/' . $usuario['id']) ?>" class="btn btn-primary">
+            Editar
+        </a>
         </div>
     </div>
     <div class="row p-4">

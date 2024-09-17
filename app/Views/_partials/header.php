@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="<?=base_url('assets/vendor/css/core.css')?>" class="template-customizer-core-css" />
     <link id="dark-theme-stylesheet" rel="stylesheet" href="<?= base_url('assets/css/core-dark.css') ?>" disabled />
     <link rel="stylesheet" href="<?=base_url('assets/vendor/css/theme-default.css')?>" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="<?=base_url('public/assets/css/demo.css')?>"/>
+    <link rel="stylesheet" href="<?=base_url('assets/css/demo.css')?>"/>
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')?>"/>
@@ -79,7 +79,7 @@
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="<?=base_url('assets/js/config.js')?>"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="<?=base_url('js/main_2.js')?>"></script>
+    <script src="<?=base_url('assets/js/main_2.js')?>"></script>
   
     
     <link rel="stylesheet" href="https://cdn.datatables.net/2.1.6/css/dataTables.bootstrap5.css">

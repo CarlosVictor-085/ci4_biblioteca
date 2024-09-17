@@ -152,17 +152,3 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', (event) => {
-    const menuToggle = document.getElementById('menuToggle');
-    const htmlElement = document.documentElement;
-  
-    menuToggle.addEventListener('click', () => {
-      if (htmlElement.classList.contains('layout-menu-expanded')) {
-        htmlElement.classList.remove('layout-menu-expanded');
-      } else {
-        htmlElement.classList.add('layout-menu-expanded');
-      }
-    });
-  });
-    </script>

@@ -76,7 +76,7 @@ class Emprestimo extends BaseController
                 $emprestimo['status_devolucao'] = null; // Sem devolução registrada
             }
         }
-        dd($emprestimo);
+        //dd($emprestimo);
         $livro = $this->livroModel->findAll();
         $dadosobra = $this->obraModel->findAll();
         $aluno = $this->alunoModel->findAll();
