@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="<?=base_url('/assets/bootstrap/css/bootstrap.css')?>">
-    <link rel="shortcut icon" type="imagex/png" href="<?=base_url("assets/img/sga2.png")?>">
+    <link rel="shortcut icon" class="rounded-circle" href="<?=base_url("assets/img/sga2.png")?>">
         <!-- Favicon -->
       <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
 
@@ -80,9 +80,15 @@
     <script src="<?=base_url('assets/js/config.js')?>"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="<?=base_url('assets/js/main_2.js')?>"></script>
+    <link rel="stylesheet" href="<?=base_url('assets/css/barradecarregamento.css')?>"/>
   
     
     <link rel="stylesheet" href="https://cdn.datatables.net/2.1.6/css/dataTables.bootstrap5.css">
     <title>Biblioteca</title>
 </head>
 <body>
+<div id="preloader">
+  <div class="loading">
+    <div class="spinner"></div>
+  </div>
+</div>

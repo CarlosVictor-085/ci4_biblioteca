@@ -1,31 +1,31 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Function to handle the click event on menu links
+    // Função para lidar com o evento de clique nos links do menu
     function handleMenuItemClick(event) {
-        event.preventDefault(); // Prevent the default link behavior
+        event.preventDefault(); // Prevenir o comportamento padrão do link
 
-        // Get the clicked menu link
+        // Obter o link do menu clicado
         const menuLink = event.currentTarget;
         const menuItem = menuLink.closest('.menu-item');
-        
-        // Remove 'active' class from all menu items
+
+        // Remover a classe 'active' de todos os itens do menu
         document.querySelectorAll('.menu-item').forEach(item => {
             item.classList.remove('active');
         });
 
-        // Add 'active' class to the clicked menu item's <li>
+        // Adicionar a classe 'active' ao <li> do item de menu clicado
         if (menuItem) {
             menuItem.classList.add('active');
-            // Store the active item's URL in localStorage
+            // Armazenar a URL do item ativo no localStorage
             localStorage.setItem('activeMenuItem', menuLink.getAttribute('href'));
         }
 
-        // Navigate to the link after setting the active state
+        // Navegar para o link após definir o estado ativo
         setTimeout(() => {
             window.location.href = menuLink.getAttribute('href');
-        }, 100); // Small delay to ensure class update
+        }, 100); // Pequeno atraso para garantir a atualização da classe
     }
 
-    // Function to set the active item on page load
+    // Função para definir o item ativo ao carregar a página
     function setActiveMenuItem() {
         const activeItemUrl = localStorage.getItem('activeMenuItem');
         if (activeItemUrl) {
@@ -37,33 +37,41 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Function to handle the click event for the specific menuitem link
+    // Função para lidar com o evento de clique para um item específico do menu
     function handleSpecialMenuItemClick(event) {
-        event.preventDefault(); // Prevent the default link behavior
+        event.preventDefault(); // Prevenir o comportamento padrão do link
 
-        // Remove 'active' class from all menu items
+        // Remover a classe 'active' de todos os itens do menu
         document.querySelectorAll('.menu-item').forEach(item => {
             item.classList.remove('active');
         });
 
-        // Clear the active item from localStorage
+        // Limpar o item ativo do localStorage
         localStorage.removeItem('activeMenuItem');
 
-        // Redirect to the specified URL
-        window.location.href = 'http://localhost/ci4_biblioteca/public/Home/index';
+        // Redirecionar para a URL especificada
+        window.location.href = baseUrl + 'Home/index';
     }
 
-    // Attach click event listeners to all menu links
+    // Adicionar listeners de clique a todos os links do menu
     document.querySelectorAll('.menu-link').forEach(link => {
         link.addEventListener('click', handleMenuItemClick);
     });
 
-    // Attach click event listener to the specific menuitem link
+    // Adicionar listener de clique para o item específico do menu
     const specialMenuItem = document.getElementById('menuitem');
     if (specialMenuItem) {
         specialMenuItem.addEventListener('click', handleSpecialMenuItemClick);
     }
 
-    // Set the active item on page load
+    // Definir o item ativo ao carregar a página
     setActiveMenuItem();
+
+    // Adicionar listener de clique ao link de logout para limpar o localStorage
+    const logoutLink = document.querySelector('.dropdown-item[href="' + logoutUrl + '"]');
+    if (logoutLink) {
+        logoutLink.addEventListener('click', function () {
+            localStorage.clear(); // Limpar todos os dados do localStorage
+        });
+    }
 });
