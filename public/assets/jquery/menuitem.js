@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // Adicionar a classe 'active' ao <li> do item de menu clicado
         if (menuItem) {
             menuItem.classList.add('active');
-            // Armazenar a URL do item ativo no localStorage
-            localStorage.setItem('activeMenuItem', menuLink.getAttribute('href'));
+            // Armazenar a URL do item ativo no sessionStorage
+            sessionStorage.setItem('activeMenuItem', menuLink.getAttribute('href'));
         }
 
         // Navegar para o link após definir o estado ativo
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Função para definir o item ativo ao carregar a página
     function setActiveMenuItem() {
-        const activeItemUrl = localStorage.getItem('activeMenuItem');
+        const activeItemUrl = sessionStorage.getItem('activeMenuItem');
         if (activeItemUrl) {
             document.querySelectorAll('.menu-link').forEach(link => {
                 if (link.getAttribute('href') === activeItemUrl) {
@@ -46,8 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
             item.classList.remove('active');
         });
 
-        // Limpar o item ativo do localStorage
-        localStorage.removeItem('activeMenuItem');
+        // Limpar o item ativo do sessionStorage
+        sessionStorage.removeItem('activeMenuItem');
 
         // Redirecionar para a URL especificada
         window.location.href = baseUrl + 'Home/index';
@@ -67,11 +67,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // Definir o item ativo ao carregar a página
     setActiveMenuItem();
 
-    // Adicionar listener de clique ao link de logout para limpar o localStorage
+    // Adicionar listener de clique ao link de logout para limpar o sessionStorage
     const logoutLink = document.querySelector('.dropdown-item[href="' + logoutUrl + '"]');
     if (logoutLink) {
         logoutLink.addEventListener('click', function () {
-            localStorage.clear(); // Limpar todos os dados do localStorage
+            sessionStorage.clear(); // Limpar todos os dados do sessionStorage
         });
     }
 });
