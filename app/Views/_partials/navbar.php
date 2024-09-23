@@ -97,7 +97,7 @@
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow show" href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="true">
                     <div class="nav-link active aria-current m-2">
-                    <img src="http://localhost/ci4_biblioteca/public/assets/img/avatars/avatar.png" alt class="w-px-40 h-auto rounded-circle" />
+                    <img src="<?=base_url('assets/img/avatars/avatar.png')?>" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   
@@ -106,7 +106,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="http://localhost/ci4_biblioteca/public/assets/img/avatars/avatar.png" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="<?=base_url('assets/img/avatars/avatar.png')?>/>
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -133,22 +133,22 @@
           <!---Barra de Pesquisa e Navegação de usuario--->
   <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="http://localhost/ci4_biblioteca/public/assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="http://localhost/ci4_biblioteca/public/assets/vendor/libs/popper/popper.js"></script>
-    <script src="http://localhost/ci4_biblioteca/public/assets/vendor/js/bootstrap.js"></script>
-    <script src="http://localhost/ci4_biblioteca/public/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="<?=base_url('assets/vendor/libs/jquery/jquery.js')?>"></script>
+    <script src="<?=base_url('assets/vendor/libs/popper/popper.js')?>"></script>
+    <script src="<?=base_url('assets/vendor/libs/popper/popper.jsassets/vendor/js/bootstrap.js')?>"></script>
+    <script src="<?=base_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')?>"></script>
 
-    <script src="http://localhost/ci4_biblioteca/public/assets/vendor/js/menu.js"></script>
+    <script src="<?=base_url('assets/vendor/js/menu.js')?>"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="http://localhost/ci4_biblioteca/public/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="<?=base_url('assets/vendor/libs/apex-charts/apexcharts.js')?>"></script>
 
     <!-- Main JS -->
-    <script src="http://localhost/ci4_biblioteca/public/assets/js/main.js"></script>
+    <script src="<?=base_url('assets/js/main.js')?>"></script>
 
     <!-- Page JS -->
-    <script src="http://localhost/ci4_biblioteca/public/assets/js/dashboards-analytics.js"></script>
+    <script src="<?=base_url('assets/js/dashboards-analytics.js')?>"></script>
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
