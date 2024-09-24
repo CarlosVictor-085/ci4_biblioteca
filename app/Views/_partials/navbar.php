@@ -156,3 +156,6 @@
       var logoutUrl = "<?php echo base_url('login/logout'); ?>";
       var baseUrl = "<?php echo base_url(); ?>";
     </script>
+    <script>
+    var baseUrl2 = '<?php echo base_url(); ?>'; // Defina a variável baseUrl
+    </script>

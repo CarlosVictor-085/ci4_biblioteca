@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="<?=base_url('/assets/bootstrap/css/bootstrap.css')?>">
-    <link rel="shortcut icon" class="rounded-circle" href="<?=base_url("assets/img/sga2.png")?>">
+    <link rel="icon" href="<?=base_url('assets/img/sga2.png')?>" sizes="32x32" type="image/png">
         <!-- Favicon -->
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -26,6 +26,23 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log para verificar se a alternância está funcionando
             console.log(`Dropdown está ${isExpanded ? 'fechado' : 'aberto'}`);
         });
+
+        // Função para ajustar o estilo do dropdown dependendo da largura da tela
+        function adjustDropdownStyle() {
+            if (window.innerWidth < 768) { // Altere 768 para o limite desejado
+                dropdownMenu.style.right = '-105px';
+                dropdownMenu.style.left = ''; // Remove o estilo left se existir
+            } else {
+                dropdownMenu.style.left = '-105px';
+                dropdownMenu.style.right = ''; // Remove o estilo right se existir
+            }
+        }
+
+        // Ajusta o estilo do dropdown na carga inicial
+        adjustDropdownStyle();
+
+        // Adiciona um listener para o evento de redimensionamento
+        window.addEventListener('resize', adjustDropdownStyle);
     } else {
         console.error('O link ou o menu dropdown não foi encontrado no DOM.');
     }
