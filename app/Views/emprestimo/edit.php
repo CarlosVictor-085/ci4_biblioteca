@@ -104,7 +104,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            Você tem certeza que deseja excluir: <br>Data de Inicio: <?=$emprestimo['data_inicio']?><br>Data do Fim:: <?=$emprestimo['data_fim']?><br>Data do Prazo:: <?=$emprestimo['data_prazo']?><br>Livro: <?=$emprestimo['id_livro']?><br> Aluno: <?=$emprestimo['id_aluno']?><br> Usuario: <?=$emprestimo['id_usuario']?>
+            Você tem certeza que deseja excluir
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>

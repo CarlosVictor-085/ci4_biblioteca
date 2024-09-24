@@ -1,23 +1,32 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Function to handle the click event on the link
-    function handleLinkClick(event) {
-        // Prevent the default link behavior
-        event.preventDefault();
+    // Seleciona o link e o menu dropdown
+    const dropdownLink = document.querySelector('.nav-link.dropdown-toggle.hide-arrow');
+    const dropdownMenu = document.querySelector('.dropdown-menu.dropdown-menu-end');
 
-        // Get the clicked link
-        const link = event.currentTarget;
+    if (dropdownLink && dropdownMenu) {
+        dropdownLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Impede o comportamento padrão
+            
+            // Verifica se o dropdown já está expandido
+            const isExpanded = dropdownLink.classList.contains('show');
 
-        // Add the 'show' class to the link
-        link.classList.add('show');
+            if (isExpanded) {
+                // Fecha o dropdown
+                dropdownLink.setAttribute('aria-expanded', 'false');
+                dropdownLink.classList.remove('show');
+                dropdownMenu.classList.remove('show');
+            } else {
+                // Abre o dropdown
+                dropdownLink.setAttribute('aria-expanded', 'true');
+                dropdownLink.classList.add('show');
+                dropdownMenu.classList.add('show');
+                dropdownMenu.removeAttribute('data-bs-popper');
+            }
 
-        // Remove the 'show' class after a short delay
-        setTimeout(() => {
-            link.classList.remove('show');
-        }, 1000); // Delay in milliseconds (e.g., 1000ms = 1 second)
+            // Log para verificar se a alternância está funcionando
+            console.log(`Dropdown está ${isExpanded ? 'fechado' : 'aberto'}`);
+        });
+    } else {
+        console.error('O link ou o menu dropdown não foi encontrado no DOM.');
     }
-
-    // Attach click event listeners to all links with the class 'nav-link'
-    document.querySelectorAll('.nav-link.dropdown-toggle').forEach(link => {
-        link.addEventListener('click', handleLinkClick);
-    });
 });

@@ -95,18 +95,18 @@
             <ul class="navbar-nav flex-row align-items-center ms-auto">
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                  <a class="nav-link dropdown-toggle hide-arrow show" href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="true">
-                    <div class="nav-link active aria-current m-2">
-                    <img src="<?=base_url('assets/img/avatars/avatar.png')?>" alt class="w-px-40 h-auto rounded-circle" />
+                  <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" aria-expanded="false">
+                    <div class="avatar avatar-online">
+                      <img src="<?=base_url('assets/img/avatars/avatar.png')?>" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   
-                  <ul class="dropdown-menu dropdown-menu-end">
-                  <a class="dropdown-item">
+                  <ul class="dropdown-menu dropdown-menu-end"" style="position: absolute; left: -105px; top: 100%; z-index: 1000;">
+                      <a class="dropdown-item">
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="<?=base_url('assets/img/avatars/avatar.png')?>/>
+                              <img src="<?=base_url('assets/img/avatars/avatar.png')?>" alt class="w-px-40 h-auto rounded-circle"/>
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -135,7 +135,7 @@
     <!-- build:js assets/vendor/js/core.js -->
     <script src="<?=base_url('assets/vendor/libs/jquery/jquery.js')?>"></script>
     <script src="<?=base_url('assets/vendor/libs/popper/popper.js')?>"></script>
-    <script src="<?=base_url('assets/vendor/libs/popper/popper.jsassets/vendor/js/bootstrap.js')?>"></script>
+    <script src="<?=base_url('assets/vendor/js/bootstrap.js')?>"></script>
     <script src="<?=base_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')?>"></script>
 
     <script src="<?=base_url('assets/vendor/js/menu.js')?>"></script>

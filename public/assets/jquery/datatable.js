@@ -8,7 +8,7 @@ $(document).ready(function() {
         ],
 
         "language": {
-            "url": 'http://localhost/ci4_biblioteca/public/assets/js/pt-BR.json'  // Use o base URL para o caminho do JSON
+            "url": '//cdn.datatables.net/plug-ins/1.13.4/i18n/pt-BR.json'  // Use o base URL para o caminho do JSON
         }
         
     });

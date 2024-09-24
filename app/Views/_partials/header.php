@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="<?=base_url('/assets/bootstrap/css/bootstrap.css')?>">
     <link rel="shortcut icon" class="rounded-circle" href="<?=base_url("assets/img/sga2.png")?>">
         <!-- Favicon -->
-      <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
-
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

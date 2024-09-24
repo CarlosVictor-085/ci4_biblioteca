@@ -100,6 +100,7 @@ class Emprestimo extends BaseController
     {  
             // Recupera o empréstimo específico pelo ID
             $dados = $this->EmprestimoModel->find($id);
+  //dd($dados);
             // Processa a data de início
             if ($dados) {
                 $data_inicio = $dados['data_inicio'];
