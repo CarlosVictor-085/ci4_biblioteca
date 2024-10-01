@@ -24,9 +24,13 @@ class Aluno extends BaseController{
     }
 
 
-    public function cadastrar(){
+    public function cadastrar() {
         $aluno = $this->request->getPost();
-        $this->alunoModel->save($aluno);
+        if ($this->alunoModel->save($aluno)) {
+            session()->setFlashdata('success', 'Aluno cadastrado com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao cadastrar aluno.');
+        }
         return redirect()->to('Aluno/index');
     }
 
@@ -39,15 +43,23 @@ class Aluno extends BaseController{
 
     }
 
-    public function salvar(){
+    public function salvar() {
         $aluno = $this->request->getPost();
-        $this->alunoModel->save($aluno);
+        if ($this->alunoModel->save($aluno)) {
+            session()->setFlashdata('success', 'Aluno atualizado com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao atualizar aluno.');
+        }
         return redirect()->to('Aluno/index');
     }
 
-    public function excluir(){
+    public function excluir() {
         $aluno = $this->request->getPost();
-        $this->alunoModel->delete($aluno);
+        if ($this->alunoModel->delete($aluno)) {
+            session()->setFlashdata('error', 'Aluno excluído com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao excluir aluno. Pode ser que haja restrições de chave estrangeira.');
+        }
         return redirect()->to('Aluno/index');
     }
 

@@ -35,7 +35,7 @@
                         <?=$em['data_prazo_formatada']?>
                     </td>
                     <td>
-                        <?=$em['nome_obra']?>
+                        <?=$em['tombo']?> - <?=$em['nome_obra']?>
                     </td>
                     <td>
                         <?=$em['nome_aluno']?>
@@ -84,7 +84,7 @@
                         <option>Selecione um Livro</option>
                         <?php foreach($listaLivro as $livro) : ?>
                             <?php if($livro['disponivel'] >= 1):?>
-                                <option value="<?=$livro['id']?>"><?=$obras[$livro['id_obra']]?></option>
+                                <option value="<?=$livro['id']?>"><?=$livro['tombo']?> - <?=$obras[$livro['id_obra']]?></option>
                             <?php endif?>
                         <?php endforeach ?>
                     </select>
@@ -115,3 +115,29 @@
         <?=form_close()?>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Seletor para todos os campos de select com a classe 'form-select'
+    var selects = document.querySelectorAll('.form-select');
+
+    selects.forEach(function(select) {
+        // Cria a opção de texto padrão
+        var defaultOption = document.createElement('option');
+        defaultOption.value = ''; // Valor vazio
+        defaultOption.disabled = true; // Desabilitado
+        defaultOption.selected = true; // Selecionado por padrão
+        defaultOption.textContent = 'Selecione uma opção'; // Texto a ser exibido
+
+        // Adiciona a opção padrão ao select
+        select.prepend(defaultOption);
+    });
+
+    // Adiciona o required a todos os inputs e selects da classe 'form-control'
+    var inputsAndSelects = document.querySelectorAll('.form-control, .form-select');
+    inputsAndSelects.forEach(function(element) {
+        element.setAttribute('required', 'required');
+    });
+});
+
+</script>

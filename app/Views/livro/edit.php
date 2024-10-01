@@ -1,32 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <?php if (session()->getFlashdata('success')): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('success') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php elseif (session()->getFlashdata('error')): ?>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('error') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
 <div class="container p-5">
     <?=form_open('Livro/salvar')?>
     <input value='<?=$livro['id']?>' class='form-control' type="hidden" id='id' name='id'>
-    <div class="row p-2">
-        <div class="col-2">
-            <label class="form-label"for="nome">Disponivel:</label>
-        </div>
-        <div class="col-10">
-            <select class='form-select' name="disponivel" id="disponivel" required>
-                <option value="<?=$livro['disponivel']?>" hidden><?=$statusdisponivel[$livro['disponivel']]?>
-                <?php foreach($statusdisponivel as $chave => $valor) : ?>
-                    <option value="<?=$chave?>"><?=$valor?></option>
-                <?php endforeach ?>
-                </option>
-            </select>
-        </div>
-    </div>
     <div class="row p-2">
         <div class="col-2">
             <label class="form-label" for="nome">Status</label>
         </div>
         <div class="col-10">
             <select class='form-select' name="status" id="status" required>
-              <option value="<?=$livro['status']?>" hidden><?=$status[$livro['status']]?>
+                <option value="<?=$livro['status']?>" hidden><?=$status[$livro['status']]?>
                 <?php foreach($status as $chave => $valor) : ?>
                     <option value="<?=$chave?>"><?=$valor?></option>
-                <?php endforeach ?>
-              </option>
+                    <?php endforeach ?>
+                </option>
             </select>
+        </div>
+    </div>
+    <div class="row p-2">
+        <div class="col-2">
+            <label class="form-label"for="nome">Tombamneto:</label>
+        </div>
+        <div class="col-10">
+            <input type="text" value="<?=$livro['tombo']?>" class="form-control" name="tombo" id="tombo">
         </div>
     </div>
     <div class="row p-2">

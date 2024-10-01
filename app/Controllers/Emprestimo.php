@@ -33,7 +33,7 @@ class Emprestimo extends BaseController
 
          // Verifique se a tabela principal e seus aliases estão corretos
          $builder->select('e.id AS emprestimo_id, e.data_inicio, e.data_prazo, e.data_fim, 
-                           a.nome AS nome_aluno, u.nome AS nome_usuario, o.titulo AS nome_obra')
+                           a.nome AS nome_aluno, u.nome AS nome_usuario, o.titulo AS nome_obra, l.tombo AS tombo')
                  ->distinct()
                  ->from('emprestimo e') // Definindo a tabela principal e o alias
                  ->join('aluno a', 'e.id_aluno = a.id', 'left') // Certifique-se de que a tabela é `alunos`

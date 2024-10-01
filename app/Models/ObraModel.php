@@ -12,7 +12,7 @@ class ObraModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['titulo','isbn','categoria','ano_publicacao','id_editora'];
+    protected $allowedFields    = ['titulo','isbn','categoria','ano_publicacao','id_editora','quantidade'];
 
     protected bool $allowEmptyInserts = false;
 

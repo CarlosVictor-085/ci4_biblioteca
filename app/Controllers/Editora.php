@@ -24,13 +24,6 @@ class Editora extends BaseController
         echo view('_partials/footer');
 
     }
-
-    public function cadastrar(){
-        $editora = $this->request->getPost();
-        $editora['senha']= md5("senhaforte");
-        $this->editoraModel->save($editora);
-        return redirect()->to('Editora/index');
-    }
     
     public function editar($id){
         $dados = $this->editoraModel->find($id);
@@ -40,15 +33,43 @@ class Editora extends BaseController
         echo view('_partials/footer');
     }
 
+    public function cadastrar(){
+        $editora = $this->request->getPost();
+        
+        // Tenta salvar a editora e exibe mensagem de sucesso ou erro
+        if ($this->editoraModel->save($editora)) {
+            session()->setFlashdata('success', 'Editora cadastrada com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao cadastrar a editora.');
+        }
+        
+        return redirect()->to('Editora/index');
+    }
+    
     public function salvar(){
         $editora = $this->request->getPost();
-        $this->editoraModel->save($editora);
+        
+        // Tenta salvar a editora e exibe mensagem de sucesso ou erro
+        if ($this->editoraModel->save($editora)) {
+            session()->setFlashdata('success', 'Editora atualizada com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao atualizar a editora.');
+        }
+        
         return redirect()->to('Editora/index');
     }
-
+    
     public function excluir(){
         $editora = $this->request->getPost();
-        $this->editoraModel->delete($editora);
+        
+        // Tenta excluir a editora e exibe mensagem de sucesso ou erro
+        if ($this->editoraModel->delete($editora)) {
+            session()->setFlashdata('error', 'Editora excluída com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao excluir a editora.');
+        }
+        
         return redirect()->to('Editora/index');
     }
+    
 }

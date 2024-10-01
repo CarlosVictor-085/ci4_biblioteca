@@ -1,4 +1,22 @@
 <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <?php if (session()->getFlashdata('success')): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('success') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php elseif (session()->getFlashdata('error')): ?>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('error') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
+<div class="container">
     <h2>Aluno</h2>
         <div class="float-end me-3 d-flex" role="search">
             <div class="navbar-nav align-items-center">
@@ -61,7 +79,7 @@
             <div class="modal-body">
             <div class="form-group">
                     <label class="form-label" for="cpf">CPF:</label>
-                    <input class='form-control' type="text" id='cpf' name='cpf'>
+                    <input class='form-control' type="text" id='cpf' name='cpf' required>
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="nome">Nome:</label>
@@ -77,8 +95,8 @@
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="turma">Turma:</label>
-                    <select class='form-control' name="turma" id="turma">
-                        <option hidden>Selecione Uma Turma...</option>
+                    <select class='form-select' name="turma" id="turma">
+                        <option hidden>Selecione Uma Turma...</option>                    
                         <option value="1A">1A</option>
                         <option value="1B">1B</option>
                         <option value="1C">1C</option>
@@ -104,3 +122,28 @@
     </div>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Seletor para todos os campos de select com a classe 'form-select'
+    var selects = document.querySelectorAll('.form-select');
+
+    selects.forEach(function(select) {
+        // Cria a opção de texto padrão
+        var defaultOption = document.createElement('option');
+        defaultOption.value = ''; // Valor vazio
+        defaultOption.disabled = true; // Desabilitado
+        defaultOption.selected = true; // Selecionado por padrão
+        defaultOption.textContent = 'Selecione uma opção'; // Texto a ser exibido
+
+        // Adiciona a opção padrão ao select
+        select.prepend(defaultOption);
+    });
+
+    // Adiciona o required a todos os inputs e selects da classe 'form-control'
+    var inputsAndSelects = document.querySelectorAll('.form-control, .form-select');
+    inputsAndSelects.forEach(function(element) {
+        element.setAttribute('required', 'required');
+    });
+});
+
+</script>

@@ -1,8 +1,26 @@
 <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <?php if (session()->getFlashdata('success')): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('success') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php elseif (session()->getFlashdata('error')): ?>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('error') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
+<div class="container">
 <h2>Atualizar Senha</h2>
 </div>
 <div class="container p-5">
-    <?=form_open('Usuario/salvar')?>
+    <?=form_open('Usuario/salvarsenha')?>
     <input value='<?=$usuario['id']?>'class='form-control' type="hidden" id='id' name='id'>
     <div class="row p-2">
         <div class="col-2">

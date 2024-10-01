@@ -1,4 +1,22 @@
 <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <?php if (session()->getFlashdata('success')): ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('success') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php elseif (session()->getFlashdata('error')): ?>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <?= session()->getFlashdata('error') ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
+<div class="container">
     <h2>Livro</h2>
         <!-- Button do Modal -->
         <button type="button" class="btn btn-primary d-grid" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -12,6 +30,7 @@
             <td class="text-start">ID</td>
             <td>DISPONIVEL</td>
             <td>STATUS</td>
+            <td class="text-start">TOMBAMENTO</td>
             <td>OBRA</td>
         </tr>
         </thead>
@@ -26,6 +45,9 @@
                     </td>
                     <td>
                         <?=$status[$li['status']]?>
+                    </td>
+                    <td class="text-start">
+                        <?=$li['tombo']?>
                     </td>
                     <td>
                         <?=$li['titulo']?>
@@ -46,32 +68,21 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label class="form-label" for="disponivel">Disponivel:</label>
-                    <select class='form-select' name="disponivel" id="disponivel" required>
-                        <option>Selecione a Disponibilidade</option>
-                        <?php foreach($statusdisponivel as $chave => $valor) : ?>
-                            <option value="<?=$chave?>"><?=$valor?></option>
-                        <?php endforeach ?>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label class="form-label" for="status">Status:</label>
-                    <select class='form-select' name="status" id="status" required>
-                        <option>Selecione o Status</option>
-                        <?php foreach($status as $chave => $valor) : ?>
-                            <option value="<?=$chave?>"><?=$valor?></option>
-                        <?php endforeach ?>
-                    </select>
+                    <label class="form-label" for="tombo">Tombamento:</label>
+                    <input type="text" class="form-control" name="tombo" id="tombo" required>
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="telefone">Obra:</label>
                     <select class='form-select' name="id_obra" id="id_obra" required>
                         <option>Selecione uma obra</option>
                         <?php foreach($listaObra as $obra) : ?>
-                            <option value="<?=$obra['id']?>"><?=$obra['titulo']?></option>
+                            <?php if($obra['livros_cadastrados'] < $obra['quantidade']) : // Apenas exibe se ainda tiver espaço ?>
+                                <option value="<?=$obra['id']?>"><?=$obra['titulo']?></option>
+                            <?php endif; ?>
                         <?php endforeach ?>
                     </select>
                 </div>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
@@ -83,22 +94,27 @@
     </div>
 </div>
 <script>
-$(document).ready(function() {
-    $('#pesquisa').keyup(function() {
-        var searchQuery = $(this).val();
-        searchBooks(searchQuery);
+    document.addEventListener('DOMContentLoaded', function() {
+    // Seletor para todos os campos de select com a classe 'form-select'
+    var selects = document.querySelectorAll('.form-select');
+
+    selects.forEach(function(select) {
+        // Cria a opção de texto padrão
+        var defaultOption = document.createElement('option');
+        defaultOption.value = ''; // Valor vazio
+        defaultOption.disabled = true; // Desabilitado
+        defaultOption.selected = true; // Selecionado por padrão
+        defaultOption.textContent = 'Selecione uma opção'; // Texto a ser exibido
+
+        // Adiciona a opção padrão ao select
+        select.prepend(defaultOption);
+    });
+
+    // Adiciona o required a todos os inputs e selects da classe 'form-control'
+    var inputsAndSelects = document.querySelectorAll('.form-control, .form-select');
+    inputsAndSelects.forEach(function(element) {
+        element.setAttribute('required', 'required');
     });
 });
 
-function searchBooks(searchQuery) {
-    $.ajax({
-        url: '<?=base_url('Livro/busca')?>',
-        type: 'POST',
-        data: {pesquisa: searchQuery},
-        success: function(data) {
-            // Substitua o corpo da tabela com os novos resultados de busca
-            $('tbody').html(data);
-        }
-    });
-}
 </script>

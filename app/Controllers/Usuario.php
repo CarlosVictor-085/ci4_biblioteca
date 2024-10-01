@@ -31,12 +31,6 @@ class Usuario extends BaseController{
         echo view('_partials/footer');
     }
 
-    public function cadastrar(){
-        $usuario = $this->request->getPost();
-        $this->usuarioModel->save($usuario);
-        return redirect()->to(previous_url());
-    }
-
     public function senha($id){
         $dados = $this->usuarioModel->find($id);
 
@@ -46,15 +40,56 @@ class Usuario extends BaseController{
         echo view('_partials/footer');
     }
     
+    public function cadastrar(){
+        $usuario = $this->request->getPost();
+        
+        // Tenta salvar o usuário e exibe mensagem de sucesso ou erro
+        if ($this->usuarioModel->save($usuario)) {
+            session()->setFlashdata('success', 'Usuário cadastrado com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao cadastrar o usuário.');
+        }
+        
+        return redirect()->to(previous_url());
+    }
+    
     public function salvar(){
         $usuario = $this->request->getPost();
-        $this->usuarioModel->save($usuario);
+        
+        // Tenta salvar o usuário e exibe mensagem de sucesso ou erro
+        if ($this->usuarioModel->save($usuario)) {
+            session()->setFlashdata('success', 'Usuário atualizado com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao atualizar o usuário.');
+        }
+        
         return redirect()->to('Usuario/editar');
     }
-
+    
+    public function salvarsenha(){
+        $usuario = $this->request->getPost();
+        
+        // Tenta salvar a nova senha do usuário e exibe mensagem de sucesso ou erro
+        if ($this->usuarioModel->save($usuario)) {
+            session()->setFlashdata('success', 'Senha atualizada com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao atualizar a senha.');
+        }
+        
+        return redirect()->to('Usuario/editar');
+    }
+    
     public function excluir(){
         $usuario = $this->request->getPost();
-        $this->usuarioModel->delete($usuario);
+        
+        // Tenta excluir o usuário e exibe mensagem de sucesso ou erro
+        if ($this->usuarioModel->delete($usuario)) {
+            session()->setFlashdata('error', 'Usuário excluído com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao excluir o usuário.');
+        }
+        
         return redirect()->to('Usuario/index');
     }
+    
 }

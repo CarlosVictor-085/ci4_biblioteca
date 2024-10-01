@@ -29,27 +29,23 @@
         </div>
         <div class="col-10">
         <select class='form-select' name="id_livro" id="id_livro" required>
-        <?php
-            // Cria um array associativo de ID para título de obra
-            $obras = [];
-            foreach($listaObra as $obra) {
-             $obras[$obra['id']] = $obra['titulo'];
-            }
+            <?php
+                // Cria um array associativo de ID para título de obra
+                $obras = [];
+                foreach ($listaObra as $obra) {
+                    $obras[$obra['id']] = $obra['titulo'];
+                }
 
-            // Cria um array associativo de ID para título de livro
-            $livros = [];
-            foreach($listaLivro as $livro) {
-                $livros[$livro['id']] = $obras[$livro['id_obra']];
-            }
-
-            // Itera sobre a lista de livros para criar as opções do select
-            foreach($listaLivro as $livro) {
-            // Verifica se o livro atual é o selecionado
-            $selected = ($livro['id'] == $emprestimo['id_livro']) ? 'selected' : '';
-            echo "<option value=\"{$livro['id']}\" $selected>{$livros[$livro['id']]}</option>";
-        }
-        ?>
+                // Itera sobre a lista de livros para criar as opções do select
+                foreach ($listaLivro as $livro) {
+                    // Verifica se o livro atual é o selecionado
+                    $selected = ($livro['id'] == $emprestimo['id_livro']) ? 'selected' : '';
+                    // Exibe o tombo e o título da obra no select
+                    echo "<option value=\"{$livro['id']}\" $selected>{$livro['tombo']} - {$obras[$livro['id_obra']]}</option>";
+                }
+            ?>
         </select>
+
         </div>
     </div>
     <div class="row p-2">

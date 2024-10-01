@@ -23,13 +23,6 @@ class Autor extends BaseController
         echo view('autor/index.php',['listaAutor' => $dados, 'pager' => $pager]);
         echo view('_partials/footer');
     }
-
-    public function cadastrar(){
-        $autor = $this->request->getPost();
-        $autor['senha']= md5("senhaforte");
-        $this->autorModel->save($autor);
-        return redirect()->to('Autor/index');
-    }
     
     public function editar($id){
         $dados = $this->autorModel->find($id);
@@ -38,17 +31,44 @@ class Autor extends BaseController
         echo view('autor/edit',['autor' => $dados]);
         echo view('_partials/footer');
     }
-
+    
+    public function cadastrar(){
+        $autor = $this->request->getPost();
+        
+        // Tenta salvar o autor e exibe mensagem de sucesso ou erro
+        if ($this->autorModel->save($autor)) {
+            session()->setFlashdata('success', 'Autor cadastrado com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao cadastrar o autor.');
+        }
+        
+        return redirect()->to('Autor/index');
+    }
+    
     public function salvar(){
         $autor = $this->request->getPost();
-        $this->autorModel->save($autor);
+        
+        // Tenta salvar o autor e exibe mensagem de sucesso ou erro
+        if ($this->autorModel->save($autor)) {
+            session()->setFlashdata('success', 'Autor atualizado com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao atualizar o autor.');
+        }
+        
         return redirect()->to('Autor/index');
     }
-
+    
     public function excluir(){
         $autor = $this->request->getPost();
-        $this->autorModel->delete($autor);
+        
+        // Tenta excluir o autor e exibe mensagem de sucesso ou erro
+        if ($this->autorModel->delete($autor)) {
+            session()->setFlashdata('error', 'Autor excluído com sucesso.');
+        } else {
+            session()->setFlashdata('error', 'Erro ao excluir o autor.');
+        }
+        
         return redirect()->to('Autor/index');
     }
-
+    
 }
